@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Back again, again...
-tagline: reenraging my primate
+tagline: re-enraging my primate
 ---
 {% include JB/setup %}
 

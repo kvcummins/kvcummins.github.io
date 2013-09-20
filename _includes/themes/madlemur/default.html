@@ -44,15 +44,9 @@
         {{ content }}
       </div>
       <hr>
-      <footer>
-        <p class="pull-right"><small>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </small></p>
-      </footer>
 
     </div>
-
+    {% include themes/madlemur/footer.html %}
     {% include JB/analytics %}
   </body>
 </html>
