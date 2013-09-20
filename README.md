@@ -1,1 +1,1 @@
-{% include index.html %}
+My personal blog.
