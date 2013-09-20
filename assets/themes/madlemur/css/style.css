@@ -1,3 +1,5 @@
+body { padding-top: 70px; }
+
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
@@ -5,9 +7,6 @@
 
 .container-narrow > hr {
   margin: 30px 0; }
-
-.navbar .nav {
-  float: right; }
 
 /* posts index */
 .post > h3.title {

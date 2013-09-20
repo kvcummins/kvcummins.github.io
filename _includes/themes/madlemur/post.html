@@ -12,28 +12,29 @@
     </div>
 
   {% unless page.categories == empty %}
-    <ul class="tag_box inline">
-      <li><i class="icon-folder-open"></i></li>
+    <ul class="nav nav-pills">
+      <li title="Categories"><a><i class="icon-folder-open"></i></a></li>
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
   {% endunless %}  
 
   {% unless page.tags == empty %}
-    <ul class="tag_box inline">
-      <li><i class="icon-tags"></i></li>
+    <ul class="nav nav-pills">
+      <li title="Tags"><a><i class="icon-tags"></i></a></li>
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
   {% endunless %}  
 
     <hr>
-    <div class="pagination">
-      <ul>
+    <div class="row">
+    <div class="col-lg-6 col-lg-offset-3">
+      <ul class="pager">
       {% if page.previous %}
-        <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+        <li class="previous"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
       {% else %}
-        <li class="prev disabled"><a>&larr; Previous</a></li>
+        <li class="previous disabled"><a>&larr; Previous</a></li>
       {% endif %}
         <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
       {% if page.next %}
@@ -42,6 +43,7 @@
         <li class="next disabled"><a>Next &rarr;</a>
       {% endif %}
       </ul>
+    </div>
     </div>
     <hr>
     {% include JB/comments %}
