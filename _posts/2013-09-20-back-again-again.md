@@ -1,7 +1,9 @@
 ---
-layout: page
-title: Back again, again...
-tagline: reenraging my primate
+layout: post
+title: "Back again, again..."
+description: "reenraging my primate"
+category: madlemur.com
+tags: [GitHub, Jekyll, CakePHP, Liquid]
 ---
 {% include JB/setup %}
 
