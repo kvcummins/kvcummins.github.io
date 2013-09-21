@@ -29,6 +29,6 @@ Even better, it runs your repository through [Jekyll](http://jekyllrb.com/) befo
 
 ## This isn't [Dwarf Fortress](http://www.bay12games.com/dwarves)...
 
-No overhanging learning cliff here. There's still things for me to pick up, but once I get comfortable with Markdown, I should be able to crank out content with greater ease. Some time with Liquid should put me on track for tweaking my theme. And tracking down providers for various services may take some time (I'm using [IntenseDebate](http://www.intensedebate.com) as my comments service, just because I'm a rebel and don't want to use Disqus.)
+No overhanging learning cliff here. There's still things for me to pick up, but once I get comfortable with Markdown, I should be able to crank out content with greater ease. Some time with Liquid should put me on track for tweaking my theme. And tracking down providers for various services may take some time (I'm using Google+ as my comments service, just because I'm a rebel and don't want to use Disqus.)
 
 So settle in, let the world generate, and hopefully this won't end in a pool of magma and vomit...
