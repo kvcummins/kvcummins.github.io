@@ -12,12 +12,18 @@ But I digress. This is my tiny little corner of the web, where I can (and hopefu
 I hope you enjoy my meager offerings.
 
 Ken Cummins
+<br />
 madlemur.com
+
+<div class="g-person" data-width="199" data-href="https://plus.google.com/100099294805798995028" data-showcoverphoto="false" data-rel="author"></div>
 </div>
+
 <div markdown="1">
 ### Recent Posts
 
 {% for post in site.posts limit:5 %}
-<a href="{{post.url}}">{{post.title}}</a>
+<a href="{{post.url}}">{{post.title}}</a><br />
+<small>{{ post.date | date: "%B %e, %Y" }}</small>
+<p />
 {% endfor %}  
 </div>
