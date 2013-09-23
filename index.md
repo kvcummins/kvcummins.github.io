@@ -4,6 +4,7 @@ title: Welcome to madlemur!
 tagline: enrage your primate
 ---
 {% include JB/setup %}
+<div class="row" markdown="1">
 <div class="col-lg-8" markdown="1">
 Hello there, fellow primates! I'm assuming that dogs, cats, and ferrets haven't gained the ability to read, and that dolphins and elephants have better things to do than surf the web. I'm not talking to spiders, so I don't care how many beady little orbs you're reading this with...
 
@@ -14,16 +15,18 @@ I hope you enjoy my meager offerings.
 Ken Cummins
 <br />
 madlemur.com
-
-<div class="g-person" data-width="199" data-href="https://plus.google.com/100099294805798995028" data-showcoverphoto="false" data-rel="author"></div>
 </div>
+<div class="col-lg-4" markdown="1">
+<div class="g-person" data-width="199" data-href="https://plus.google.com/100099294805798995028" data-showcoverphoto="false" data-rel="author"></div>
 
-<div markdown="1">
 ### Recent Posts
 
 {% for post in site.posts limit:5 %}
 <a href="{{post.url}}">{{post.title}}</a><br />
-<small>{{ post.date | date: "%B %e, %Y" }}</small>
+<small>{{ post.date | date: "%B %e, %Y" }}<br />
+<span class="g-commentcount" data-href="{{site.production_url}}{{post.url}}"></span>
+</small>
 <p />
 {% endfor %}  
+</div>
 </div>
