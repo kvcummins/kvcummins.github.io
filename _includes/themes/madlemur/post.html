@@ -14,25 +14,25 @@
     </div>
 
   {% unless page.categories == empty %}
-    <ul class="nav nav-pills">
-      <li title="Categories"><a><i class="icon-folder-open"></i></a></li>
+    <ul class="nav nav-pills category-list">
+      <li title="Categories" class="disabled"><a><i class="icon-folder-open"></i></a></li>
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
   {% endunless %}  
 
   {% unless page.tags == empty %}
-    <ul class="nav nav-pills">
-      <li title="Tags"><a><i class="icon-tags"></i></a></li>
+    <ul class="nav nav-pills tag-list">
+      <li title="Tags" class="disabled"><a><i class="icon-tags"></i></a></li>
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
   {% endunless %}  
 
-    <hr>
+    <hr style="margin:5px;">
     <div class="row">
     <div class="col-lg-6 col-lg-offset-3">
-      <ul class="pager">
+      <ul class="pager" style="margin:5px;">
       {% if page.previous %}
         <li class="previous"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
       {% else %}
@@ -47,6 +47,6 @@
       </ul>
     </div>
     </div>
-    <hr>
+    <hr style="margin:5px;">
     {% include JB/comments %}
   </div>

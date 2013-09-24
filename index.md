@@ -17,7 +17,7 @@ Ken Cummins
 madlemur.com
 </div>
 <div class="col-lg-4" markdown="1">
-<div class="g-person" data-width="199" data-href="https://plus.google.com/100099294805798995028" data-showcoverphoto="false" data-rel="author"></div>
+<div class="g-person" data-width="350" data-href="//plus.google.com/{{site.author.google_plus}}" data-layout="landscape" data-rel="author"></div>
 
 ### Recent Posts
 
@@ -28,5 +28,6 @@ madlemur.com
 </small>
 <p />
 {% endfor %}  
+
 </div>
 </div>

@@ -66,3 +66,27 @@ body {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+div.share_links {
+  margin-top: 9px;
+}
+  
+div.share_links a > span {
+  margin: 12px 6px 0px;
+}
+
+div.share_links a:hover {
+  text-decoration:none;
+}
+
+ul.category-list li a, ul.tag-list li a {
+  padding: 5px;
+}
+
+ul.category-list li.disabled > a:hover, ul.tag-list li.disabled > a:hover {
+  cursor: default;
+}
+
+ul.category-list li.disabled > a > i, ul.tag-list li.disabled > a > i {
+  color: #000;
+}
