@@ -41,5 +41,17 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 <p />
 {% endfor %}  
 
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3420478509863216";
+/* Sidebar display */
+google_ad_slot = "4635528225";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
 </div>
 </div>
