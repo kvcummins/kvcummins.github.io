@@ -19,6 +19,18 @@ madlemur.com
 <div class="col-lg-4" markdown="1">
 <div class="g-person" data-width="350" data-href="//plus.google.com/{{site.author.google_plus}}" data-layout="landscape" data-rel="author"></div>
 
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3420478509863216";
+/* Half Banner */
+google_ad_slot = "9065727823";
+google_ad_width = 234;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
 ### Recent Posts
 
 {% for post in site.posts limit:5 %}
