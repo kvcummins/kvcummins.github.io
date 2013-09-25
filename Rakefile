@@ -10,7 +10,8 @@ CONFIG = {
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
   'post_ext' => "md",
-  'theme_package_version' => "0.1.0"
+  'theme_package_version' => "0.1.0",
+  'drafts' => File.join(SOURCE, "_drafts")
 }
 
 # Path configuration helper
@@ -40,12 +41,68 @@ module JB
   end #Path
 end #JB
 
-# Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1, tag2]]
+# Usage: rake publish title="A Title" [date="YYYY-MM-DD"]
+desc "Publish a draft post into #{CONFIG['posts']}"
+task :publish do
+  abort("rake aborted: '#{CONFIG['drafts']}' directory not found.") unless FileTest.directory?(CONFIG['drafts'])
+  abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
+  abort("rake aborted: No draft title given.") unless ENV["title"]
+  title = ENV["title"] 
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  begin
+    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
+  rescue => e
+    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
+    exit -1
+  end
+  draftfilename = File.join(CONFIG['drafts'], "#{slug}.#{CONFIG['post_ext']}")
+  abort("rake aborted: No draft found for '#{title}'") unless File.exist?(draftfilename)
+  filename = File.join(CONFIG['posts'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+    FileUtils.remove #{filename}
+    abort("rake aborted: unable to remove old file '#{filename}'") if File.exist(filename)
+  end
+  
+  puts "Publishing post: #{filename}"
+  FileUtils.move draftfilename, filename
+  abort("rake aborted: Publish failed! Check #{CONFIG['drafts']} and #{CONFIG['posts']}") unless File.exist?(filename)
+  abort("rake aborted: Publish failed! Check #{CONFIG['drafts']} and #{CONFIG['posts']}") if File.exist?(draftfilename)
+end # task :publish
+
+# Usage: rake draft title="A Title" [tags=[tag1, tag2]] [category=[category]]
+desc "Begin a new draft in #{CONFIG['drafts']}"
+task :draft do
+  abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
+  title = ENV["title"] || "new-post"
+  tags = ENV["tags"] || "[]"
+  category = ENV["category"] || ""
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  filename = File.join(CONFIG['drafts'], "#{slug}.#{CONFIG['post_ext']}")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+  
+  puts "Creating new draft: #{filename}"
+  open(filename, 'w') do |draft|
+    draft.puts "---"
+    draft.puts "layout: post"
+    draft.puts "title: \"#{title.gsub(/-/,' ')}\""
+    draft.puts 'description: ""'
+    draft.puts "category: #{category}"
+    draft.puts "tags: #{tags}"
+    draft.puts "---"
+    draft.puts "{% include JB/setup %}"
+  end
+end # task :draft
+
+# Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1, tag2]] [category=[category]]
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
   title = ENV["title"] || "new-post"
   tags = ENV["tags"] || "[]"
+  category = ENV["category"] || ""
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
@@ -64,7 +121,7 @@ task :post do
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts 'description: ""'
-    post.puts "category: "
+    post.puts "category: #{category}"
     post.puts "tags: #{tags}"
     post.puts "---"
     post.puts "{% include JB/setup %}"
