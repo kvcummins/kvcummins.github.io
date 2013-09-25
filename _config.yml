@@ -133,3 +133,6 @@ JB :
 
   tags_list :
     provider : custom
+
+  pages_list :
+    provider : custom
