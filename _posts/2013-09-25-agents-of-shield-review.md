@@ -2,6 +2,7 @@
 layout: post
 title: "_Agents of S.H.I.E.L.D._ review"
 description: "A review of the new TV Show"
+tagline: "The Highly Talented, but not quite Super, Heros"
 category: Entertainment
 tags: [ TV, Marvel, S.H.I.E.L.D., Avengers, Agent Coulson ]
 ---
@@ -18,7 +19,7 @@ Don't lie, you were jonesing for Coulson, too. Even as a poorly kept marketing "
 
 For a pilot, even of a well-known franchise, the minimal exposition was quite refreshing. There was just enough to rough out each character, but not a steaming pile of rancid backstory. Joss certainly went with "Show, don't Tell". And as he often does, he shows just enough of what's beyond the current script to keep you interested, without the blunt instrument of shooting J.R. just to get you to come back.
 
-On the down side, I'm not enthralled by the comic relief. Perhaps when the characters and writing have settled in a little more, we'll have more of an Odd Couple/Mulder & Sculley/House & Wilson vibe, rather than Chip & Dale/Wonder Twins/Jack & Karen. The closing scene, while being a great shout-out to the comic book tradition, irked me a bit. I expect Lola to be back, but I hope they keep it tasteful and don't turn her into the bizarre love child of KIT and the Batmobile. "Deus Ex Automobilis" would be a crying shame, at least if done too soon, or with any regularity.
+On the down side, I'm not enthralled by the comic relief. Perhaps when the characters and writing have settled in a little more, we'll have more of an Odd Couple/Mulder & Sculley/House & Wilson vibe, rather than a Chip & Dale/Wonder Twins/Jack & Karen schtick. The closing scene, while being a great shout-out to the comic book tradition, irked me a bit. I expect Lola to be back, but I hope they keep it tasteful and don't turn her into the bizarre love child of KIT and the Batmobile. "Deus Ex Automobilis" would be a crying shame, at least if done too soon, or with any regularity.
 
 ### See you next week!
 
