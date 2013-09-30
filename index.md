@@ -17,7 +17,7 @@ Ken Cummins
 madlemur.com
 </div>
 <div class="col-lg-4" markdown="1">
-<div class="g-person" data-width="350" data-href="//plus.google.com/{{site.author.google_plus}}" data-layout="landscape" data-rel="author"></div>
+<div class="g-person" data-width="350" data-href="//plus.google.com/{{site.author.google_plus}}" data-layout="landscape" data-rel="author" style="height:106px;"></div>
 
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-3420478509863216";
@@ -40,7 +40,6 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </small>
 <p />
 {% endfor %}  
-
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-3420478509863216";
 /* Sidebar display */
@@ -52,6 +51,5 @@ google_ad_height = 250;
 <script type="text/javascript"
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
-
 </div>
 </div>

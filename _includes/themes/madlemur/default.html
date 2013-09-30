@@ -42,12 +42,17 @@
     <div class="container">
 
       <div class="content">
+      <div class="wrapper">
+      <div class="proper-content">
         {{ content }}
       </div>
-      <hr>
-
+      <div class="push"></div>
+      </div>
+      </div>
     </div>
+    <div class="footer-wrapper">
     {% include themes/madlemur/footer.html %}
+    </div>
     {% include JB/analytics %}
     <script src="{{ ASSET_PATH }}/js/site.js"></script>	
   </body>
