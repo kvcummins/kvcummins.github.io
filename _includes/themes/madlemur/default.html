@@ -38,19 +38,14 @@
 
   <body>
 
+    <div class="wrapper">
     {% include themes/madlemur/navbar_top.html %}
-    <div class="container">
-
-      <div class="content">
-      <div class="wrapper">
-      <div class="proper-content">
+      <div class="container">
         {{ content }}
       </div>
       <div class="push"></div>
-      </div>
-      </div>
     </div>
-    <div class="footer-wrapper">
+    <div class="footer-wrapper container">
     {% include themes/madlemur/footer.html %}
     </div>
     {% include JB/analytics %}
