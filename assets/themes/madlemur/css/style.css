@@ -1,3 +1,7 @@
+.navbar-inverse {
+  background-color: #112211;
+}
+
 /* make room for navbars */
 body { 
   padding: 50px 0px; 
