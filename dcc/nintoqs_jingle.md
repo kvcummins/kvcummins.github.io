@@ -12,13 +12,13 @@ text: This spell will compel the spirit to manifest for the duration determined 
 manifestation: Ghostly presence. Judge's choice.
 fumble: 
   "d8":
-    "1": The bells shatter. The caster permanently loses one ability point per bell. +1 Major corruption.
-    "2-5": The caster is overwhelmed by the spirit world, and has a -2 on all rolls for the duration of the manifestation (determined when the bells were bound). +1 Minor corruption.
+    "1": The bells shatter. The caster permanently loses one ability point per bell. <em>+1 Major corruption</em>.
+    "2-5": The caster is overwhelmed by the spirit world, and has a -2 on all rolls for the duration of the manifestation (determined when the bells were bound). <em>+1 Minor corruption</em>.
     "6-8": 
       "The wrong spirit manifests.":
         "d4":
           "1": Most recently deceased family member of the caster.
-          "2": Last living, sentient creature killed by the caster, or <em>+1 Minor corruption</em>, if the it would be the summoned creature.
+          "2": Last living, sentient creature killed by the caster, or <em>+1 Minor corruption</em>, if it would be the spirit bound by the bell(s).
           "3": A powerful wizard projecting himself into the astral plane.
           "4": A demon.
 spellcheck:
