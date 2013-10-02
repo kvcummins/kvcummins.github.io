@@ -15,6 +15,21 @@ I hope you enjoy my meager offerings.
 Ken Cummins
 <br />
 madlemur.com
+<div>
+<script type="text/javascript"><!--
+amazon_ad_tag="theenrpri-20"; 
+amazon_ad_width="728"; 
+amazon_ad_height="90"; 
+amazon_color_background="EBE8C0"; 
+amazon_color_border="386424"; 
+amazon_color_logo="DDD37F"; 
+amazon_color_text="38352A"; 
+amazon_color_link="33578B"; 
+amazon_ad_logo="hide"; 
+amazon_ad_link_target="new"; 
+amazon_ad_title="the enraged primate gift shop"; //--></script>
+<script type="text/javascript" src="http://ir-na.amazon-adsystem.com/s/asw.js"></script>
+</div>
 </div>
 <div class="col-lg-4" markdown="1">
 <div class="g-person" data-width="350" data-href="//plus.google.com/{{site.author.google_plus}}" data-layout="landscape" data-rel="author" style="height:106px;"></div>
