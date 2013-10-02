@@ -1,16 +1,68 @@
 <div class="page-header">
+  {% unless page.date == empty %}
+    <div class="date pull-right">
+      <span>{{ page.date | date_to_long_string }}</span>
+    </div>
+  {% endunless %}
 <h1>{{ page.spellname  | markdownify }}</h1>
-</div>
+<h5>{{ page.description }}</h5>
 
 <a href="//plus.google.com/100099294805798995028" rel="author" style="display:none;"></a>
 
-  <div>
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
-    </div>
     {% include themes/madlemur/sharing.html %}
+</div>
     <div class="content">
-      {{ content }}
+    {{ page.text }}
+    <h3>Manifestation</h3>
+    {% for results in page.manifestation %}
+      {% if results[1].first[0] != null %}
+        {{ results[0] }} Roll {{ results[1].first[1].first[0] }}.<br>
+	<table class="table">
+	{% for subresult in results[1].first[1].first[1] %}
+	  <tr><td>{{ subresult[0] }}</td><td>{{ subresult[1] }}</td></tr>
+	{% endfor %}
+	</table>
+      {% else %}
+        {{ page.manifestation }}
+      {% endif %}
+    {% endfor %}
+    <h3>Fumble</h3>
+    {% for results in page.fumble %}
+      {% if results[1].first[0] != null %}
+        Roll {{ results[0] }}.<br>
+	<table class="table">
+	{% for subresult in results[1] %}
+	  {% if subresult[1].first[0] != null %}
+	    <tr><td>{{ subresult[0] }}</td><td>{{ subresult[1].first[0] }} Roll {{ subresult[1].first[1].first[0] }}<br /><table class="table">
+	    {% for sub2result in subresult[1].first[1].first[1] %}
+	    <tr><td>{{ sub2result[0] }}</td><td>{{ sub2result[1] }}</td></tr>
+	    {% endfor %}
+	    </table></td></tr>
+	  {% else %}
+	  <tr><td>{{ subresult[0] }}</td><td>{{ subresult[1] }}</td></tr>
+	  {% endif %}
+	{% endfor %}
+	</table>
+      {% else %}
+        {{ page.fumble }}
+      {% endif %}
+    {% endfor %}
+    <h3>Spellcheck results</h3>
+    <table class="table">
+    {% for results in page.spellcheck %}
+      {% if results[1].first[0] != null %}
+	<tr><td>{{ results[0] }}</td><td>{{ results[1].first[0] }} Roll {{ results[1].first[1].first[0] }}.
+	<table class="table">
+	{% for subresult in results[1].first[1].first[1]  %}
+	  <tr><td>{{ subresult[0] }}</td><td>{{ subresult[1] }}</td></tr>
+	{% endfor %}
+	</table></td></tr>
+      {% else %}
+        <tr><td>{{ results[0] }}</td><td>{{ results[1] }}</td></tr>
+      {% endif %}
+    {% endfor %}
+    </table>
+    {{ content }}
     </div>
 
   {% unless page.categories == empty %}
