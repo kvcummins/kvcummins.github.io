@@ -1,0 +1,27 @@
+@import url('duvall-webfont.css');
+
+.wrapper > .container {
+	background-color: rgba(255, 191, 217, 0.45);
+}
+
+.dcc-spell > h1 {
+	font-family: DuvallNormal; 
+	text-align: center;
+}
+
+.dcc-spell > .content, .dcc-spell > .content > h3 {
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+ul.spell-list li a {
+  padding: 5px;
+  font-family: DuvallNormal;
+}
+
+ul.spell-list li.disabled > a:hover {
+  cursor: default;
+}
+
+ul.spell-list li.disabled > a > i {
+  color: #000;
+}

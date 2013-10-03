@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'DuvallNormal';
+    src: url('/assets/themes/madlemur/fonts/duvall-webfont.eot');
+    src: url('/assets/themes/madlemur/fonts/duvall-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/madlemur/fonts/duvall-webfont.woff') format('woff'),
+         url('/assets/themes/madlemur/fonts/duvall-webfont.ttf') format('truetype'),
+         url('/assets/themes/madlemur/fonts/duvall-webfont.svg#DuvallNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DuvallBold';
+    src: url('/assets/themes/madlemur/fonts/duvall_bold-webfont.eot');
+    src: url('/assets/themes/madlemur/fonts/duvall_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/madlemur/fonts/duvall_bold-webfont.woff') format('woff'),
+         url('/assets/themes/madlemur/fonts/duvall_bold-webfont.ttf') format('truetype'),
+         url('/assets/themes/madlemur/fonts/duvall_bold-webfont.svg#DuvallBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DuvallCondensed';
+    src: url('/assets/themes/madlemur/fonts/duvallcondensed-webfont.eot');
+    src: url('/assets/themes/madlemur/fonts/duvallcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/madlemur/fonts/duvallcondensed-webfont.woff') format('woff'),
+         url('/assets/themes/madlemur/fonts/duvallcondensed-webfont.ttf') format('truetype'),
+         url('/assets/themes/madlemur/fonts/duvallcondensed-webfont.svg#DuvallCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DuvallCondensedBold';
+    src: url('/assets/themes/madlemur/fonts/duvallcondensed_bold-webfont.eot');
+    src: url('/assets/themes/madlemur/fonts/duvallcondensed_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/madlemur/fonts/duvallcondensed_bold-webfont.woff') format('woff'),
+         url('/assets/themes/madlemur/fonts/duvallcondensed_bold-webfont.ttf') format('truetype'),
+         url('/assets/themes/madlemur/fonts/duvallcondensed_bold-webfont.svg#DuvallCondensedBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DuvallSmallCaps';
+    src: url('/assets/themes/madlemur/fonts/duvallsmallcaps-webfont.eot');
+    src: url('/assets/themes/madlemur/fonts/duvallsmallcaps-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcaps-webfont.woff') format('woff'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcaps-webfont.ttf') format('truetype'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcaps-webfont.svg#DuvallSmallCaps') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DuvallSmallCapsBold';
+    src: url('/assets/themes/madlemur/fonts/duvallsmallcaps_bold-webfont.eot');
+    src: url('/assets/themes/madlemur/fonts/duvallsmallcaps_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcaps_bold-webfont.woff') format('woff'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcaps_bold-webfont.ttf') format('truetype'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcaps_bold-webfont.svg#DuvallSmallCapsBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DuvallSmallCapsCondensed';
+    src: url('/assets/themes/madlemur/fonts/duvallsmallcapscondensed-webfont.eot');
+    src: url('/assets/themes/madlemur/fonts/duvallsmallcapscondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcapscondensed-webfont.woff') format('woff'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcapscondensed-webfont.ttf') format('truetype'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcapscondensed-webfont.svg#DuvallSmallCapsCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DuvallSmallCapsCondensedBold';
+    src: url('/assets/themes/madlemur/fonts/duvallsmallcapscondensed_bold-webfont.eot');
+    src: url('/assets/themes/madlemur/fonts/duvallsmallcapscondensed_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcapscondensed_bold-webfont.woff') format('woff'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcapscondensed_bold-webfont.ttf') format('truetype'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcapscondensed_bold-webfont.svg#DuvallSmallCapsCondensedBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DuvallOutline';
+    src: url('/assets/themes/madlemur/fonts/duvalloutline-webfont.eot');
+    src: url('/assets/themes/madlemur/fonts/duvalloutline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/madlemur/fonts/duvalloutline-webfont.woff') format('woff'),
+         url('/assets/themes/madlemur/fonts/duvalloutline-webfont.ttf') format('truetype'),
+         url('/assets/themes/madlemur/fonts/duvalloutline-webfont.svg#DuvallOutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DuvallSmallCapsOutline';
+    src: url('/assets/themes/madlemur/fonts/duvallsmallcapsoutline-webfont.eot');
+    src: url('/assets/themes/madlemur/fonts/duvallsmallcapsoutline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcapsoutline-webfont.woff') format('woff'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcapsoutline-webfont.ttf') format('truetype'),
+         url('/assets/themes/madlemur/fonts/duvallsmallcapsoutline-webfont.svg#DuvallSmallCapsOutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

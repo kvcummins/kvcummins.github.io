@@ -1,0 +1,73 @@
+{% include themes/madlemur/sharing.html %}
+
+<div class="patron well">
+<ul class="list-group"><li class="list-group-item">
+{{ content }}
+</li></ul>
+</div>
+
+{% capture toc %}
+{% if page.spells[1] %}
+<div class="well well-sm">
+	<ul class="nav nav-pills spell-list">
+	<li title="Spells" class="disabled"><a><i class="icon-magic"></i></a></li>
+	{% for spell in page.spells %}
+		{% if spell.shortname %}
+			{% assign linkname=spell.shortname %}
+		{% else %}
+			{% capture linkname %}{{ spell.name | downcase | replace: ' ', '_' | remove: "'" | remove '+' | remove '&' | remove '$' }}{% endcapture %}
+		{% endif %}
+		<li><a href="#{{ linkname }}">{{ spell.name | markdownify | strip_html }}</a></li>
+	{% endfor %}
+	</ul>
+</div>
+{% endif %}
+{% endcapture %}
+
+{% for spell in page.spells %}
+	{% if spell.shortname %}
+		{% assign linkname=spell.shortname %}
+	{% else %}
+		{% capture linkname %}{{ spell.name | handle }}{% endcapture %}
+	{% endif %}
+	<a name="{{ linkname }}"> </a>
+	{{ toc }}
+	{% include themes/madlemur/dcc_spell_detail.html %}
+{% endfor %}
+
+<div class="well">
+{% unless page.categories == empty %}
+	<ul class="nav nav-pills category-list">
+		<li title="Categories" class="disabled"><a><i class="icon-folder-open"></i></a></li>
+		{% assign categories_list = page.categories %}
+		{% include JB/categories_list %}
+	</ul>
+{% endunless %}  
+
+{% unless page.tags == empty %}
+	<ul class="nav nav-pills tag-list">
+		<li title="Tags" class="disabled"><a><i class="icon-tags"></i></a></li>
+		{% assign tags_list = page.tags %}
+		{% include JB/tags_list %}
+	</ul>
+{% endunless %}  
+</div>
+<div class="row">
+	<div class="col-lg-8 col-lg-offset-2">
+		<ul class="pager" style="margin:5px;">
+			{% if page.previous %}
+				<li class="previous"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+			{% else %}
+				<li class="previous disabled"><a>&larr; Previous</a></li>
+			{% endif %}
+			<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+			{% if page.next %}
+				<li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+			{% else %}
+				<li class="next disabled"><a>Next &rarr;</a>
+			{% endif %}
+		</ul>
+	</div>
+</div>
+
+{% include JB/comments %}

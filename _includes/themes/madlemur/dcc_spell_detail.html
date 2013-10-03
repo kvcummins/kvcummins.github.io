@@ -1,0 +1,72 @@
+<div class="dcc-spell well">
+	<a href="//plus.google.com/100099294805798995028" rel="author" style="display:none;"></a>
+	<h1>{{ spell.name  | markdownify }}</h1>
+    <div class="content">
+		<table class="table table-bordered table-striped"><tr>
+			<td>Level: {{ spell.level }}</td>
+			<td>Range: {{ spell.range }}</td>
+			<td>Duration: {{ spell.duration }}</td>
+			<td>Casting Time: {{ spell.cast }}</td>
+			<td>Save: {{ spell.save }}</td>
+		</tr></table>
+		<h3>General</h3>
+		<ul class="list-group"><li class="list-group-item">
+		<p>{{ spell.description }}</p>
+		<p>{{ spell.text }}</p></li></ul>
+		<h3>Manifestation</h3>
+		<ul class="list-group">
+		{% for results in spell.manifestation %}
+			{% if results[1].first[0] != null %}
+				<li class="list-group-item">{{ results[0] }} Roll {{ results[1].first[1].first[0] }}.
+				<ul class="list-group">
+				{% for subresult in results[1].first[1].first[1] %}
+					<li class="list-group-item"><div class="row"><div class="col-lg-1">{{ subresult[0] }}</div><div class="col-lg-11">{{ subresult[1] }}</div></div></li>
+				{% endfor %}
+				</ul>
+				</li>
+			{% else %}
+				<li class="list-group-item">{{ results }}</li>
+			{% endif %}
+		{% endfor %}
+		</ul>
+		<h3>Misfire</h3>
+		<ul class="list-group">
+		{% for results in spell.misfire %}
+			{% if results[1].first[0] != null %}
+				<li class="list-group-item">Roll {{ results[0] }}.
+				<ul class="list-group">
+				{% for subresult in results[1] %}
+					{% if subresult[1].first[0] != null %}
+						<li class="list-group-item"><div class="row"><div class="col-lg-1">{{ subresult[0] }}</div><div class="col-lg-11">{{ subresult[1].first[0] }} Roll {{ subresult[1].first[1].first[0] }}<ul class="list-group">
+						{% for sub2result in subresult[1].first[1].first[1] %}
+							<li class="list-group-item"><div class="row"><div class="col-lg-1">{{ sub2result[0] }}</div><div class="col-lg-11">{{ sub2result[1] }}</div></div></li>
+						{% endfor %}
+						</ul></div></div></li>
+					{% else %}
+						<li class="list-group-item"><div class="row"><div class="col-lg-1">{{ subresult[0] }}</div><div class="col-lg-11">{{ subresult[1] }}</div></div></li>
+					{% endif %}
+				{% endfor %}
+				</ul>
+				</li>
+			{% else %}
+				<li class="list-group-item">{{ results }}</li>
+			{% endif %}
+		{% endfor %}
+		</ul>
+		<h3>Spellcheck results</h3>
+		<ul class="list-group">
+		{% for results in spell.spellcheck %}
+			{% if results[1].first[0] != null %}
+				<li class="list-group-item">{{ results[0] }} {{ results[1].first[0] }} Roll {{ results[1].first[1].first[0] }}.
+				<ul class="list-group">
+				{% for subresult in results[1].first[1].first[1]  %}
+					<li class="list-group-item"><div class="row"><div class="col-lg-1">{{ subresult[0] }}</div><div class="col-lg-11">{{ subresult[1] }}</div></li>
+				{% endfor %}
+				</ul></li>
+			{% else %}
+				<li class="list-group-item"><div class="row"><div class="col-lg-1">{{ results[0] }}</div><div class="col-lg-11">{{ results[1] }}</div></div></li>
+			{% endif %}
+		{% endfor %}
+		</ul>
+	</div>
+</div>
