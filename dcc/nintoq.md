@@ -9,11 +9,16 @@ tags: [ DCC, Patron, Spell ]
 spells:
   -
     name: "Nintoq's Bells of the Sepulchure"
-    shortname: "nintoqs_bells"
+    shortname: "bells"
+    level: "Wizard 3"
+    range: "N/A"
+    duration: "N/A"
+    casting: "1 day per bell"
+    save: "N/A"
     description: |
       The spellcaster creates special bells that can bind the spirits of the dead, 
       and compel answers from them using the spell
-      <a href="#nintoqs_jingle"><em>Nintoq's Compelling Jingle</em></a>. 
+      <a href="#jingle"><em>Nintoq's Compelling Jingle</em></a>. 
     text: |
       The spellcaster creates one to four small bells, the clappers for each being crafted from a bone from the corpse of the spirit being bound. 
       Each bell beyond the first results in a -1 modifier to the spellcheck roll for the binding. 
@@ -32,11 +37,16 @@ spells:
       "13-24": The caster can compel the spirit to manifest itself<sup>&dagger;</sup> for CL minutes, once per month.
       "25-32": The caster can compel the spirit to manifest itself<sup>&dagger;</sup> for CL hours, once per month.
       "32+": The caster can compel the spirit to manifest itself<sup>&dagger;</sup> for CL days, once per month.
-      " ": <sup>&dagger;</sup> See <a href="#nintoqs_jingle"><em>Nintoq's Compelling Jingle</em></a>
+      " ": <sup>&dagger;</sup> See <a href="#jingle"><em>Nintoq's Compelling Jingle</em></a>
   -
     name: "Nintoq's Compelling Jingle"
-    shortname: "nintoqs_jingle"
-    description: Used with <a href="#nintoqs_bells"><em>Nintoq's Bells of the Sepulchre</em></a> to question the dead.
+    shortname: "jingle"
+    level: "Wizard 3"
+    range: "N/A"
+    duration: "varies<sup>&dagger;</sup>"
+    casting: "1 turn per bell"
+    save: "N/A"
+    description: Used with <a href="#bells"><em>Nintoq's Bells of the Sepulchre</em></a> to question the dead.
     text: |
       This spell will compel the spirit to manifest for the duration determined when creating the bells. 
       If the caster has bound the spirit with multiple bells, they may roll a bonus die. 
@@ -64,7 +74,7 @@ spells:
         (e.g., what types of traps and monsters are in the temple where the golden whatsit is kept, and how to avoid them).
       "29-34": The spirit can be compelled to answer one question fully and truthfully. This includes "researching" the question by returning to the astral plane and searching for the answer.
       "35+": The spirit is compelled to assist the caster in any way in both the astral and corporeal planes, and answer one question per the previous result. This assistance lasts the length of the manifestation.<sup>&dagger;</sup>
-      " ": <sup>&dagger;</sup>See <a href="#nintoqs_bells"><em>Nintoq's Bells of the Sepulchre</em></a>	  
+      " ": <sup>&dagger;</sup>See <a href="#bells"><em>Nintoq's Bells of the Sepulchre</em></a>	  
 ---
 # Nintoq the Inquisitive
 
