@@ -13,7 +13,7 @@ spells:
     level: "Wizard 3"
     range: "N/A"
     duration: "N/A"
-    casting: "1 day per bell"
+    cast: "1 day per bell"
     save: "N/A"
     description: |
       The spellcaster creates special bells that can bind the spirits of the dead, 
@@ -44,7 +44,7 @@ spells:
     level: "Wizard 3"
     range: "N/A"
     duration: "varies<sup>&dagger;</sup>"
-    casting: "1 turn per bell"
+    cast: "1 turn per bell"
     save: "N/A"
     description: Used with <a href="#bells"><em>Nintoq's Bells of the Sepulchre</em></a> to question the dead.
     text: |
