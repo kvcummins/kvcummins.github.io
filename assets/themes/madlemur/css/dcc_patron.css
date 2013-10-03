@@ -1,6 +1,10 @@
 @import url('dcc_spell.css');
 
-.patron h1 {
+.dcc-patron h1 {
 	font-family: DuvallNormal;
 	text-align: center;
+}
+
+.dcc-patron  .content, .dcc-patron  .content > h3 {
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }

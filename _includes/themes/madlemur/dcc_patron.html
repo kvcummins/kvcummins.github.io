@@ -1,11 +1,10 @@
 {% include themes/madlemur/sharing.html %}
 
-<div class="patron well">
-<ul class="list-group"><li class="list-group-item">
+<div class="well dcc-patron">
+<ul class="list-group"><li class="list-group-item content">
 {{ content }}
 </li></ul>
 </div>
-
 {% capture toc %}
 {% if page.spells[1] %}
 <div class="well well-sm">
@@ -34,6 +33,8 @@
 	{{ toc }}
 	{% include themes/madlemur/dcc_spell_detail.html %}
 {% endfor %}
+
+
 
 <div class="well">
 {% unless page.categories == empty %}
