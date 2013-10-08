@@ -25,3 +25,8 @@ ul.spell-list li.disabled > a:hover {
 ul.spell-list li.disabled > a > i {
   color: #000;
 }
+
+.dcc-spell .list-group-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

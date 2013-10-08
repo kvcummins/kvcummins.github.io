@@ -4,6 +4,78 @@
 <ul class="list-group"><li class="list-group-item content">
 {{ content }}
 </li></ul>
+<h3>Taint</h3>
+<ul class="list-group">
+{% for results in page.taint %}
+    {% if results[1].first[0] != null %}
+        <li class="list-group-item">Roll {{ results[0] }}.
+        <ul class="list-group">
+        {% for subresult in results[1] %}
+            {% if subresult[1].first[0] != null %}
+                <li class="list-group-item"><div class="row"><div class="col-lg-1">{{ subresult[0] }}</div><div class="col-lg-11">{{ subresult[1].first[0] }} Roll {{ subresult[1].first[1].first[0] }}<ul class="list-group">
+                {% for sub2result in subresult[1].first[1].first[1] %}
+                    <li class="list-group-item"><div class="row"><div class="col-lg-1">{{ sub2result[0] }}</div><div class="col-lg-11">{{ sub2result[1] }}</div></div></li>
+                {% endfor %}
+                </ul></div></div></li>
+            {% else %}
+                <li class="list-group-item"><div class="row"><div class="col-lg-1">{{ subresult[0] }}</div><div class="col-lg-11">{{ subresult[1] }}</div></div></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+        </li>
+    {% else %}
+        <li class="list-group-item">{{ results }}</li>
+    {% endif %}
+{% endfor %}
+</ul>
+<h3>Spellburn</h3>
+<ul class="list-group">
+{% for results in page.spellburn %}
+    {% if results[1].first[0] != null %}
+        <li class="list-group-item">Roll {{ results[0] }}.
+        <ul class="list-group">
+        {% for subresult in results[1] %}
+            {% if subresult[1].first[0] != null %}
+                <li class="list-group-item"><div class="row"><div class="col-lg-1">{{ subresult[0] }}</div><div class="col-lg-11">{{ subresult[1].first[0] }} Roll {{ subresult[1].first[1].first[0] }}<ul class="list-group">
+                {% for sub2result in subresult[1].first[1].first[1] %}
+                    <li class="list-group-item"><div class="row"><div class="col-lg-1">{{ sub2result[0] }}</div><div class="col-lg-11">{{ sub2result[1] }}</div></div></li>
+                {% endfor %}
+                </ul></div></div></li>
+            {% else %}
+                <li class="list-group-item"><div class="row"><div class="col-lg-1">{{ subresult[0] }}</div><div class="col-lg-11">{{ subresult[1] }}</div></div></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+        </li>
+    {% else %}
+        <li class="list-group-item">{{ results }}</li>
+    {% endif %}
+{% endfor %}
+</ul>
+<h3>Invoke Patron</h3>
+<ul class="list-group">
+{% for results in page.invoke %}
+    {% if results[1].first[0] != null %}
+        <li class="list-group-item">Roll {{ results[0] }}.
+        <ul class="list-group">
+        {% for subresult in results[1] %}
+            {% if subresult[1].first[0] != null %}
+                <li class="list-group-item"><div class="row"><div class="col-lg-1">{{ subresult[0] }}</div><div class="col-lg-11">{{ subresult[1].first[0] }} Roll {{ subresult[1].first[1].first[0] }}<ul class="list-group">
+                {% for sub2result in subresult[1].first[1].first[1] %}
+                    <li class="list-group-item"><div class="row"><div class="col-lg-1">{{ sub2result[0] }}</div><div class="col-lg-11">{{ sub2result[1] }}</div></div></li>
+                {% endfor %}
+                </ul></div></div></li>
+            {% else %}
+                <li class="list-group-item"><div class="row"><div class="col-lg-1">{{ subresult[0] }}</div><div class="col-lg-11">{{ subresult[1] }}</div></div></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+        </li>
+    {% else %}
+        <li class="list-group-item">{{ results }}</li>
+    {% endif %}
+{% endfor %}
+</ul>
 </div>
 {% capture toc %}
 {% if page.spells[1] %}
@@ -33,8 +105,6 @@
 	{{ toc }}
 	{% include themes/madlemur/dcc_spell_detail.html %}
 {% endfor %}
-
-
 
 <div class="well">
 {% unless page.categories == empty %}
