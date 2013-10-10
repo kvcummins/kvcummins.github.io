@@ -16,18 +16,16 @@ taint:
     6: 
 spellburn:
   d4:
-    1: Dozens of writing quills stab into the spellcaster's arms and shoulders, reducing str and dex until the spellburn is recovered.
+    1: Dozens of writing quills stab into the spellcaster's arms and shoulders, sucking up blood like ink, (str, dex, con loss) until the spellburn is recovered.
     2: No immediate attribute loss. The spellcaster has 24 hours to bring Nintoq a piece of information not already known, or they will be hit with a double spellburn at the end of the 24 hours.
-    3: Nintoq borrows the spellcaster's eyesight to better help his research. The spellcaster is blind until the spellburn is recovered.
-    4: All of the spellcaster's written materials are unwritten. Scrolls, spellbooks, maps, notes, tattoos etc. They are restored in 24 hours, after Nintoq has gleaned all he can from them. Anything written on the blank pages is lost when the original contents are restored.
+    3: Nintoq borrows the spellcaster's eyesight to better help his research. In addition to attribute loss, the spellcaster is blind until the spellburn is recovered.
+    4: In addition to attribute loss, all of the spellcaster's written materials are unwritten. Scrolls, spellbooks, maps, notes, tattoos etc. They are restored in 24 hours, after Nintoq has gleaned all he can from them. Anything written on the blank pages is lost when the original contents are restored.
 invoke:
-  d6:
-    1:
-    2:
-    3:
-    4:
-    5:
-    6:
+  12-16:
+  17-23:
+  24-28:
+  29-32:
+  33+:
 spells:
   -
     name: "Nintoq's Compelling Jingle"
@@ -119,3 +117,4 @@ Nintoq is an aloof being, determined to know all there is to know about magic.
 He has been researching various arcane topics for hundreds, if not thousands of years. 
 Most of his spells deal with gathering information, as do his quests. 
 Nintoq is a very greedy patron, and will jealously guard his secrets, although the nature of those secrets can be quite inscrutable.
+He is also somewhat absent-minded, and has been known to bestow powerful knowledge for seemingly trivial tasks.
