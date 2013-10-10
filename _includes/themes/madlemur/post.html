@@ -3,30 +3,34 @@
 </div>
 
 <a href="//plus.google.com/100099294805798995028" rel="author" style="display:none;"></a>
+{% include themes/madlemur/sharing.html %}
 
   <div>
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
-    </div>
-    {% include themes/madlemur/sharing.html %}
-    <div class="content">
+    <div class="content well well-sm">
+      <div class="date">
+        <span>{{ page.date | date_to_long_string }}</span>
+      </div>
       {{ content }}
     </div>
 
   {% unless page.categories == empty %}
+  <div class="well well-sm">
     <ul class="nav nav-pills category-list">
       <li title="Categories" class="disabled"><a><i class="icon-folder-open"></i></a></li>
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
+   </div>
   {% endunless %}  
 
   {% unless page.tags == empty %}
+  <div class="well well-sm">
     <ul class="nav nav-pills tag-list">
       <li title="Tags" class="disabled"><a><i class="icon-tags"></i></a></li>
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
+  </div>
   {% endunless %}  
 
     <hr style="margin:5px;">

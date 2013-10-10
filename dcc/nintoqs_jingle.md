@@ -6,6 +6,7 @@ group: DCC
 type: Spell
 categories: "Dungeon Crawl Classics"
 tags: [ DCC, Spell ]
+icon: icon-magic
 spells:
   -
     name: "Nintoq's Compelling Jingle"

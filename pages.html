@@ -7,9 +7,11 @@ noshare: true
 ---
 {% include JB/setup %}
 
-<h2>All Pages</h2>
-<ul>
+<div class="well well-sm">
+<h3>All Pages</h3>
+<ul class="icons-ul">
 {% assign group = "navigation" %}
 {% assign pages_list = site.pages %}
 {% include JB/pages_list %}
 </ul>
+</div>

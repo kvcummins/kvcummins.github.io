@@ -6,17 +6,19 @@ group: navigation
 noshare: true
 ---
 {% include JB/setup %}
-
+<div class="well well-sm">
 <ul class="nav nav-pills">
   {% assign tags_list = site.tags %}  
   {% include JB/tags_list %}
 </ul>
-
+</div>
 
 {% for tag in site.tags %} 
-  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-  <ul>
+<div class="well well-sm">
+  <h3 id="{{ tag[0] }}-ref">{{ tag[0] }}</h3>
+  <ul class="icons-ul">
     {% assign pages_list = tag[1] %}  
     {% include JB/pages_list %}
   </ul>
+</div>
 {% endfor %}

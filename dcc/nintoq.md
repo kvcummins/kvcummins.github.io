@@ -6,6 +6,7 @@ group: DCC
 type: Patron
 categories: "Dungeon Crawl Classics"
 tags: [ DCC, Patron, Spell ]
+icon: icon-user
 taint:
   d6:
     1: Librarian. Spellcaster is easily distracted by loud noises, and must pass a will check to comprehend anything louder than normal speaking voice.

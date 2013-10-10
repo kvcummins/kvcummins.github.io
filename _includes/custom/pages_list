@@ -24,9 +24,9 @@ Usage:
     {% if node.title != null %}
       {% if group == null or group == node.group %}
       	{% if page.url == node.url %}
-      	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title | markdownify | strip_html}}</a></li>
+      	<li class="active"><span class="icon-li {%if node.icon %}{{node.icon}}{% else %}icon-asterisk{% endif %}"></span><a href="{{ BASE_PATH }}{{node.url}}" class="active"><b>{{node.title | markdownify | strip_html}}</b></a></li>
       	{% else %}
-      	<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title | markdownify | strip_html}}</a></li>
+      	<li><span class="icon-li {%if node.icon %}{{node.icon}}{% else %}icon-minus{% endif %}"></span><a href="{{ BASE_PATH }}{{node.url}}">{{node.title | markdownify | strip_html}}</a></li>
       	{% endif %}
       {% endif %}
     {% endif %}

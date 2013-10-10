@@ -1,0 +1,14 @@
+@import url('dcc_spell.css');
+
+.content, .content h2, .content h3, .content h4, .content h5  {
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+h1 {
+	font-family: DuvallNormal;
+}
+
+.content .list-group-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
