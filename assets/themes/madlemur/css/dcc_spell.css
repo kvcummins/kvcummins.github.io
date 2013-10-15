@@ -1,8 +1,4 @@
-@import url('duvall-webfont.css');
-
-.wrapper > .container {
-	background-color: rgba(255, 191, 217, 0.45);
-}
+@import('dcc_base.css');
 
 .dcc-spell > h1 {
 	font-family: DuvallNormal; 

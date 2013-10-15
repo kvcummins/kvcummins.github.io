@@ -1,0 +1,12 @@
+<a href="http://rpg.drivethrustuff.com/index.php?filters=0_0_44544_0_0&affiliate_id=82937"><img src="http://rpg.drivethrustuff.com/images/site_resources/OldSchoolRPGs-Banner.gif" border="0" alt="Old School RPGs - Available Now @ DriveThruRPG.com" ></a>
+{% if page.noshare == null %}
+{% include themes/madlemur/sharing.html %}
+{% endif %}
+<div class="well dcc-page">
+  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+<ul class="list-group"><li class="list-group-item content">
+{{ content }}
+</li></ul>
+</div>
+<hr style="margin:5px;">
+{% include JB/comments %}
