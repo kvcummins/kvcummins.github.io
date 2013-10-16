@@ -1,5 +1,5 @@
 ---
-layout: dcc_spell
+layout: dcc-spell
 title: "Nintoq's Compelling Jingle"
 date: 2013-10-01 12:43:00
 group: DCC

@@ -19,7 +19,7 @@
     <link href="{{ ASSET_PATH }}/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" type="text/css" media="all">
 	{% if page.group and page.type %}
-	<link href="{{ ASSET_PATH }}/css/{{ page.group | downcase }}_{{ page.type | downcase }}.css" rel="stylesheet" type="text/css" media="all">
+	<link href="{{ ASSET_PATH }}/css/{{ page.group | downcase }}-{{ page.type | downcase }}.css" rel="stylesheet" type="text/css" media="all">
 	{% endif %}
     <script src="//code.jquery.com/jquery.js"></script>
     <script src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>

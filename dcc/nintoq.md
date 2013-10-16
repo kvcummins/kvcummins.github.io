@@ -1,5 +1,5 @@
 ---
-layout: dcc_patron
+layout: dcc-patron
 title: "Nintoq the Inquisitive"
 date: 2013-10-01 12:43:00
 group: DCC

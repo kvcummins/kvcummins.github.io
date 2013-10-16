@@ -1,5 +1,5 @@
 ---
-layout: dcc_page
+layout: dcc-page
 title: "Here there be hexes"
 description: "A diety's voyage of world creation"
 category: "Dungeon Crawl Classics"
