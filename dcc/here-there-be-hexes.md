@@ -34,11 +34,11 @@ Here is the resulting atlas hex, with sub hexes. Each sub hex is 5 miles across.
 It is a small village of hunters, trappers, and sustenance farmers. Not much occurs there that impacts anyone outside of the village. 
 They eke out a living trading with the occasional merchant who might make the side trip from the nearby fortress.
 
-The fortress **Ruzakath** in 305 is the keep of **Emile Remaklus**, the minor noble currently tasked with keeping an eye on the **Bridewasp Peaks** to the southeast and the **Naerac Forests** to the east.
+The fortress **[Ruzakath][]** in 305 is the keep of **Emile Remaklus**, the minor noble currently tasked with keeping an eye on the **Bridewasp Peaks** to the southeast and the **Naerac Forests** to the east.
 
 The mysterious monolith in 408, the **Pillar of Relgo**, is believed to be haunted, and everyone gives it a wide berth.
 
-To the northeast in 704, along the edges of the Deep Naerac, are some old ruins. No one is sure how extensive they are, as the area is infested with wolves and supposedly worse. 
+To the northeast in 704, along the edges of the Deep Naerac, are some **[old ruins][]**. No one is sure how extensive they are, as the area is infested with wolves and supposedly worse. 
 Some brave adventurers have attempted to plumb the depths of these ancient, crumbling structures, but they always returned bloodied and empty-handed. When they returned at all.
 
 Running out of the Bridewasp is the **Rhymewand River** not terribly impressive yet, this river flows down through the Naeracs and out into the arid plains beyond. 
@@ -57,3 +57,5 @@ The remainder of the setting will have to remain in my notes, at least until my 
 [Character Cards]: http://www.kickstarter.com/projects/703093372/character-cards-instant-npcs-just-add-water
 [Kickstarter]: http://www.kickstarter.com/
 [Hexographer]: http://www.hexographer.com
+[Ruzakath]: http://www.madlemur.com/dcc/ruzakath.html
+[old ruins]: http://www.madlemur.com/dcc/ruins.html
