@@ -57,5 +57,5 @@ The remainder of the setting will have to remain in my notes, at least until my 
 [Character Cards]: http://www.kickstarter.com/projects/703093372/character-cards-instant-npcs-just-add-water
 [Kickstarter]: http://www.kickstarter.com/
 [Hexographer]: http://www.hexographer.com
-[Ruzakath]: http://www.madlemur.com/dcc/ruzakath.html
-[old ruins]: http://www.madlemur.com/dcc/ruins.html
+[Ruzakath]: /dcc/ruzakath.html
+[old ruins]: /dcc/ruins.html
