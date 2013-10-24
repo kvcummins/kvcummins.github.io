@@ -3,7 +3,7 @@ layout: post
 title: "World Building"
 description: "In the beginning..."
 category: gaming
-tags: dcc, gaming
+tags: [ DCC, gaming ]
 ---
 {% include JB/setup %}
 ### Gaming prep
