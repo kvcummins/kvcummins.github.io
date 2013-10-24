@@ -7,6 +7,7 @@ type: Page
 tags: [ DCC, setting ]
 group: DCC
 icon: icon-globe
+permalink: here-there-be-hexes.html
 ---
 {% include JB/setup %}
 
