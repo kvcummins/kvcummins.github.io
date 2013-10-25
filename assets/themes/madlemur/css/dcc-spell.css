@@ -1,4 +1,4 @@
-@import('dcc-base.css');
+@import url('dcc-base.css');
 
 .dcc-spell > h1 {
 	font-family: DuvallNormal; 
