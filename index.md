@@ -7,15 +7,11 @@ tagline: enrage your primate
 <div class="row" markdown="1">
 <div class="col-lg-8" markdown="1">
 <div class="well well-sm" markdown="1">
-Hello there, fellow primates! I'm assuming that dogs, cats, and ferrets haven't gained the ability to read, and that dolphins and elephants have better things to do than surf the web. I'm not talking to spiders, so I don't care how many beady little orbs you're reading this with...
+I haven't kept this blog as updated as I had fantasized when I overhauled it. Mainly because I haven't got a lot to say at the moment. At least, not in public...
 
-But I digress. This is my tiny little corner of the web, where I can (and hopefully will) rant and roar on a variety of topics. These rants will likely be full to the brim of unintended privilege, as I am a middle-aged, hetero-normative white male. My only claim to unprivileged status is that I suffer from long undiagnosed ADHD and Asperger's. But that's nothing spectacular these days. It's not like I'm _really_ discriminated against for my non-neurotypical brain.
+What this has become is something of a [Dungeon Crawl Classics][] WIP blog. I've been putting together bits and pieces of a campaign setting for DCC, which can be found in the [DCC Pages][] section.
 
-I hope you enjoy my meager offerings.
-
-Ken Cummins
-<br />
-madlemur.com
+Once I start running my kids through it, I'll start posting play reports. But I'm not sure when that'll start...
 </div>
 <div>
 <script type="text/javascript"><!--
@@ -71,3 +67,5 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </div>
 </div>
+[Dungeon Crawl Classics]: http://www.goodman-games.com/dccrpg.html
+[DCC Pages]: /DCC.html
