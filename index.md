@@ -16,8 +16,10 @@ Once I start running my kids through it, I'll start posting play reports. But I'
 {% include ads/amazon_banner.html %}
 </div>
 <div class="col-lg-4" markdown="1">
-<div class="g-person" data-width="350" data-href="//plus.google.com/{{site.author.google_plus}}" data-layout="landscape" data-rel="author" style="height:106px;"></div>
-{% include ads/google_halfbanner.html %}
+<div class="well well-sm">
+<div class="g-person" data-width="340" data-href="//plus.google.com/{{site.author.google_plus}}" data-layout="landscape" data-rel="author" style="height:106px;"></div>
+</div>
+<div class="well well-sm">{% include ads/google_halfbanner.html %}</div>
 <div class="well well-sm" markdown="1">
 ### Recent Posts
 
@@ -29,7 +31,8 @@ Once I start running my kids through it, I'll start posting play reports. But I'
 <p />
 {% endfor %}  
 </div>
-{% include ads/google_300x250.html %}
+<div class="well well-sm"><iframe scrolling="no" style="border: 0; width: 234px; height: 60px;" src="http://coinurl.com/get.php?id=17619"></iframe></div>
+<div class="well well-sm">{% include ads/google_300x250.html %}</div>
 </div>
 </div>
 [Dungeon Crawl Classics]: http://www.goodman-games.com/dccrpg.html
