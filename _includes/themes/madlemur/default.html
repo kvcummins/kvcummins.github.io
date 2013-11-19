@@ -23,7 +23,6 @@
 	{% endif %}
     <script src="//code.jquery.com/jquery.js"></script>
     <script src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
-    <script src="https://apis.google.com/js/plusone.js"></script>
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -52,5 +51,12 @@
     </div>
     {% include JB/analytics %}
     <script src="{{ ASSET_PATH }}/js/site.js"></script>	
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js?onload=onLoadCallback';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
   </body>
 </html>

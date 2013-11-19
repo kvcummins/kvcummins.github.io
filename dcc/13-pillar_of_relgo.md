@@ -29,7 +29,9 @@ But Relgo made a mistake. In his haste, the spell he had crafted from the musty 
 
 ### The Preservations
 
-Relgo may have been an imperfect wizard, but he was a powerful one. Everything in the vicinity of the crypt became immune to decay. The resulting collapse of the ecosystem has left the lands around the crypt unable to sustain any plant life, and the only thing that seems to thrive are lichens, slime molds, and a few hardy mosses.
+Relgo may have been an imperfect wizard, but he was a powerful one. Everything in the vicinity of the crypt became immune to decay. The resulting collapse of the ecosystem has left the lands around the crypt unable to sustain any plant life, and the only thing that seems to thrive are lichens, slime molds, and a few hardy mosses. Everything else is in an eerie lifeless state. Nothing has decayed, but it's all dead. Bare trees look almost like they are just waiting for spring to arrive, but they have just been petrified in place. Occasionally, perfectly preserved corpses of forest animals can be found, turned into perfect sculptures. Wiley adventurers may think to take samples as pieces of art, but the preservation is tied to Relgo's crypt, and anything moved outside the range of his final spell will lose its protection, and within days will rapidly (and sometimes disgustingly) decompose.
+
+Anyone who ventures into The Preservations will start to feel the effects of the spell. After a day or two, they will begin experiencing intestinal discomfort, as their natural biological processes cease to work. Food becomes indigestible. After three days, players must make a fortitude check or permanently lose one point of strength or stamina. Additional checks must be made for every additional 12 hours spent in The Preservations.
 
 ### The Pillar
 
