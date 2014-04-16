@@ -131,6 +131,7 @@ In which our weary survivors learn the desperate and grisly truth about the Azur
 
 #### Rewards
 
+* XP
 * Equipment by attrition
 * Misc moderate treasure
     * Gems
