@@ -6,7 +6,10 @@ category: "Dungeon Crawl Classics"
 type: Page
 tags: [ DCC, adventure ]
 group: DCC
-icon: icon-globe
+icon: icon-key
 permalink: kennels.html
 ---
 {% include JB/setup %}
+
+# The Kennels of the Azure Fist
+## A 0-level funnel
