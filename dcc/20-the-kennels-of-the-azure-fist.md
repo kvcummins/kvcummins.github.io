@@ -28,19 +28,119 @@ Part panic, part braggadocio, talks swing between taking a pitchfork out in the 
 
 A makeshift posse is organized, with a surprising number of people willing to see this fear ended. A plan is hatched to gather at a nearby farm the next evening to lie in wait and get to the bottom of these raids. Those who have volunteered go home to rest and prepare themselves...
 
+---
+
 ## First Glimpse
 
 In which our intrepid band gets its first sighting of the Azure Fist and his pack. And possibly rabies...
+
+#### Challenges
+
+* INT check to avoid being surprised (DC 10)
+* AGL check to get surprise (DC 10)
+* Encounter: The Pack
+    * 4 dogs as _Wolves_
+    * 1 alpha dog as _Dire Wolf_
+
+#### Rewards
+
+* XP
+* Equipment by attrition
+* Equipment by theft
+    * Minor farm equip (pitchfork, hand sickle, etc.)
+* Glimpse of a rider with a glowing blue hand
+
+#### Hooks
+
+* Rider gets away
+* Pack willing to retreat
+
+---
 
 ## Gone to Ground
 
 In which our lightly seasoned band finds the lair of the Azure Fist. And learns that sometimes, the hands that feed _are_ bitten...
 
+#### Challenges
+
+* AGL check to climb wall silently (DC 10)
+* LCK check to open gate silently (DC 10)
+* Encounter: The Pack
+    * Survivors from above (each healed by 1d3 HP)
+    * 1d3 more dogs as _Wolves_ to max of 5 dogs in total
+* Encounter: The Alpha-Primes
+    * 2 _Hell Hounds_
+    * Avoidable by clever PCs (divine/clerical inspiration?)
+
+#### Rewards
+
+* XP
+* Equipment by attrition
+
+#### Hooks
+
+* Where's that rider?
+* We've made it this far
+
+---
+
 ## In the Clutches
 
 In which our battered band of bumblers Come face-to-face with the Azure Fist. And likely face-to-fist...
+
+#### Challeneges
+
+* LCK check to overhear conversation (hints about next section)
+* Encounter: The Azure Fist (as _Knight_ with 3 _Men at Arms_ and 1 _Magician_)
+
+#### Rewards
+
+* XP
+* Equipment by attrition
+* Equipment by looting
+    * Mundane weapons
+    * Mundane armor
+* Misc minor treasure
+    * Money
+    * Minor items
+* The **Azure Fist** (magic gauntlet)
+
+#### Hooks
+
+* More loot!
+* Insinuation/implication of ransom-able people/goods
+* Magician's stash
+
+---
 
 ## One in the Hand
 
 In which our weary survivors learn the desperate and grisly truth about the Azure Fist. And hopefully learn from his mistakes...
 
+#### Challenges
+
+* **Azure Fist**
+    * LCK check to avoid automatic fumble on next attack (-1 to roll)
+* Encounter: Cat-sized Dragon
+    * Random, but ensure communication
+    * Fight
+    * Flee
+    * Bargain
+
+#### Rewards
+
+* Equipment by attrition
+* Misc moderate treasure
+    * Gems
+    * Money
+    * Mundane weapons (d8 or less)
+* Magician's Grimoire
+    * INT check to avoid immolation traps/wards
+    * Grants knowledge of 2 lvl 1 spells to _one_ PC (Wizard track)
+* Scroll of ???
+* Healing potion
+* Knowledge of the **Azure Fist**
+    * Only on successful bargaining with dragon
+    * Abilities/purpose
+    * Drawbacks/limitations
+    * Hints of the companion gauntlet: the **Citrine Palm**
