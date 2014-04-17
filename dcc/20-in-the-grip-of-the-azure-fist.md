@@ -32,28 +32,22 @@ A makeshift posse is organized, with a surprising number of people willing to se
 
 ## First Glimpse
 
-In which our intrepid band gets its first sighting of the Azure Fist and his pack. And possibly rabies...
+The makeshift posse gathers in the barnyard of one of the outlying farms, eyes glued to the forest. 
 
-#### Challenges
+> Any larcenous PC can make an INT check (DC10) to find a useful item in the barn. A failed check means that PC is automatically surprised when the attack occurs. A successful check grants one mundane farm item _(need a table)_, but prevents the PC from being part of any ambush.
+> If any player can make an INT check (DC10 vs best modifier), one of their PCs realizes that whatever is out there already knows they're there, and will likely approach and attack from downwind! If nobody makes the check it's a LCK check to avoid surprise. If someone *does* make the check, allow an AGL check (DC10) to allow the PCs to set up an ambush!
 
-* INT check to avoid being surprised (DC 10)
-* AGL check to get surprise (DC 10)
-* Encounter: The Pack
-    * 4 dogs as _Wolves_
-    * 1 alpha dog as _Dire Wolf_
+There is a sudden burst of noise as 5 hulking shapes leap out of the shadows!
 
-#### Rewards
-
-* XP
-* Equipment by attrition
-* Equipment by theft
-    * Minor farm equip (pitchfork, hand sickle, etc.)
-* Glimpse of a rider with a glowing blue hand
-
-#### Hooks
-
-* Rider gets away
-* Pack willing to retreat
+> **The Pack**
+>
+> > 4 huge dogs (treat as _Wolves_)
+> > 1 huge Alpha Male (treat as _Dire Wolf_)
+>
+> The Alpha Male is in charge, and if he is killed, the others will flee into the darkness.
+> If the Alpha Male is taken to half his HP, he will retreat, and the rest of the pack will follow after another round of combat.
+> If two of the pack are killed, the Alpha Male will signal a retreat, and all the beasts will leave together.
+> After the pack is dealt with, a shadowy rider can be seen at the edge of the woods, his right hand glowing blue.
 
 ---
 
