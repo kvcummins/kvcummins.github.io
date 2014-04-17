@@ -39,16 +39,16 @@ The makeshift posse gathers in the barnyard of one of the outlying farms, eyes g
 
 There is a sudden burst of noise as 5 hulking shapes leap out of the shadows!
 
-> **The Pack**
->
-> > 4 huge dogs (treat as _Wolves_)
-> > 1 huge Alpha Male (treat as _Dire Wolf_)
->
-> The Alpha Male is in charge, and if he is killed, the others will flee into the darkness.
-> If the Alpha Male is taken to half his HP, he will retreat, and the rest of the pack will follow after another round of combat.
-> If two of the pack are killed, the Alpha Male will signal a retreat, and all the beasts will leave together.
-> After the pack is dealt with, a shadowy rider can be seen at the edge of the woods, his right hand glowing blue.
+<div class="well well-sm">
+<b>The Pack</b>
+4 huge dogs (treat as _Wolves_)<br />
+1 huge Alpha Male (treat as _Dire Wolf_)
 
+The Alpha Male is in charge, and if he is killed, the others will flee into the darkness.
+If the Alpha Male is taken to half his HP, he will retreat, and the rest of the pack will follow after another round of combat.
+If two of the pack are killed, the Alpha Male will signal a retreat, and all the beasts will leave together.
+After the pack is dealt with, a shadowy rider can be seen at the edge of the woods, his right hand glowing blue.
+</div>
 ---
 
 ## Gone to Ground
