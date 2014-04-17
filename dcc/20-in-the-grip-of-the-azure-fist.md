@@ -14,33 +14,35 @@ permalink: azure-fist.html
 
 ## Steeped in Fear
 
-The common room is full of families and fear. No one wants to be alone these nights, with the mist pouring out of the woods, and the things that have happened. The town dogs are quieted by the eerie howls of something else. Something in the woods. Families gather together even tighter, a child begins to snuffle and cry softly. A mother, whose newborn boy begins to fuss and cry, unceremoniously begins to feed him, knowing that tonight, everyone is family, and there is no need for false modesty. The howl is taken up by another creature from the darkness, and as they get closer to the town, the tension rises in the room. For several indeterminable minutes, there is silence. Then, in a chorus of triumphant glee, the unearthly howls rise in unison. Someone has lost a sheep, or a pig, or a cow. Now there is a release in the room. Fathers order a last round, mothers worry over their children, and everyone shoots looks out through the walls and shuttered windows, as if they could see their modest homes, and could tell if it was their homestead that had been victimized.
-
-With a violent startle, everyone freezes as a howl rises from **just outside the door!** The sound of something large sniffing the doorway, and pawing at the door has people cowering against the back wall of the over-crowded tavern. A muffled command is heard, and the noises stop briefly. But they resume, and the muffled command is repeated, louder and with more of an edge. The snuffling continues for a few seconds; there is a bowel-loosening growl, and then silence. For a full five minutes, no one moves a muscle. The inkeeper wisely begins handing out the few threadbare blankets he has. No one wants to go outside this night.
-
-Discussions begin about what happened:
-_"It's into the town, now! Can any of us be safe?"_
-_"We need to do something!"_
-_"I'm not facing whatever that is!"_
-_"We can all face it! Have some faith in yourselves!"_
-
-Part panic, part braggadocio, talks swing between taking a pitchfork out in the night and ending the terror, and packing up families and moving to safer environs. Nobody gets much sleep, and as dawn begins to shed its light through the cracks of the shutters, a few of the more experienced hunters step outside. _"Tracks look like a wolf, or a dog. Big 'un, but just a wolf."_ _"And a rider, too! I followed them tracks to the edge of town, and there were horse prints, and they were shod. That's a rider for sure."_
-
-A makeshift posse is organized, with a surprising number of people willing to see this fear ended. A plan is hatched to gather at a nearby farm the next evening to lie in wait and get to the bottom of these raids. Those who have volunteered go home to rest and prepare themselves...
+> The common room is full of families and fear. No one wants to be alone these nights, with the mist pouring out of the woods, and the things that have happened. The town dogs are quieted by the eerie howls of something else. Something in the woods. Families gather together even tighter, a child begins to snuffle and cry softly. A mother, whose newborn boy begins to fuss and cry, unceremoniously begins to feed him, knowing that tonight, everyone is family, and there is no need for false modesty. The howl is taken up by another creature from the darkness, and as they get closer to the town, the tension rises in the room. For several indeterminable minutes, there is silence. Then, in a chorus of triumphant glee, the unearthly howls rise in unison. Someone has lost a sheep, or a pig, or a cow. Now there is a release in the room. Fathers order a last round, mothers worry over their children, and everyone shoots looks out through the walls and shuttered windows, as if they could see their modest homes, and could tell if it was their homestead that had been victimized.
+> 
+> With a violent startle, everyone freezes as a howl rises from **just outside the door!** The sound of something large sniffing the doorway, and pawing at the door has people cowering against the back wall of the over-crowded tavern. A muffled command is heard, and the noises stop briefly. But they resume, and the muffled command is repeated, louder and with more of an edge. The snuffling continues for a few seconds; there is a bowel-loosening growl, and then silence. For a full five minutes, no one moves a muscle. The inkeeper wisely begins handing out the few threadbare blankets he has. No one wants to go outside this night.
+> 
+> Discussions begin about what happened:
+> _"It's into the town, now! Can any of us be safe?"_
+> _"We need to do something!"_
+> _"I'm not facing whatever that is!"_
+> _"We can all face it! Have some faith in yourselves!"_
+> 
+> Part panic, part braggadocio, talks swing between taking a pitchfork out in the night and ending the terror, and packing up families and moving to safer environs. Nobody gets much sleep, and as dawn begins to shed its light through the cracks of the shutters, a few of the more experienced hunters step outside. _"Tracks look like a wolf, or a dog. Big 'un, but just a wolf."_ _"And a rider, too! I followed them tracks to the edge of town, and there were horse prints, and they were shod. That's a rider for sure."_
+> 
+> A makeshift posse is organized, with a surprising number of people willing to see this fear ended. A plan is hatched to gather at a nearby farm the next evening to lie in wait and get to the bottom of these raids. Those who have volunteered go home to rest and prepare themselves...
 
 ---
 
 ## First Glimpse
 
-The makeshift posse gathers in the barnyard of one of the outlying farms, eyes glued to the forest. 
+> The makeshift posse gathers in the barnyard of one of the outlying farms, eyes glued to the forest. 
 
-> Any larcenous PC can make an INT check (DC10) to find a useful item in the barn. A failed check means that PC is automatically surprised when the attack occurs. A successful check grants one mundane farm item _(need a table)_, but prevents the PC from being part of any ambush.
-> If any player can make an INT check (DC10 vs best modifier), one of their PCs realizes that whatever is out there already knows they're there, and will likely approach and attack from downwind! If nobody makes the check it's a LCK check to avoid surprise. If someone *does* make the check, allow an AGL check (DC10) to allow the PCs to set up an ambush!
++ Any larcenous Player can make an INT check (DC10) to find a useful item in the barn. A failed check means that Player is automatically surprised when the attack occurs. A successful check grants one mundane farm item per PC _(need a table)_, but the Player may _not_ make a check to avoid surprise.
++ Any Player not stealing can make an INT check (DC10) for one of their PCs to realize that whatever is out there already knows they're there, and will likely approach and attack from downwind! If no Player makes the check it's a LCK check to avoid surprise. If _one_ Player makes the check, no law-abiding Players will be surprised.
++ Any Player who does make the INT check to avoid surprise may make an AGL check (DC10) to allow that Player to set up an ambush!
++ Players must decide on a course of action _before_ rolling the dice.
 
-There is a sudden burst of noise as 5 hulking shapes leap out of the shadows!
+> There is a sudden burst of noise as 5 hulking shapes leap out of the shadows!
 
 <div class="well well-sm">
-<h4>The Pack</h4>
+<h2>The Pack</h2>
 <ul><li>4 huge dogs (treat as <em>Wolves</em>)</li>
 <li>1 huge Alpha Male (treat as <em>Dire Wolf</em>)</li></ul>
 <p>
@@ -52,6 +54,7 @@ There is a sudden burst of noise as 5 hulking shapes leap out of the shadows!
 After the pack is dealt with, a shadowy rider can be seen at the edge of the woods, his right hand glowing blue.
 </p>
 </div>
+
 ---
 
 ## Gone to Ground
@@ -143,25 +146,28 @@ In which our weary survivors learn the desperate and grisly truth about the Azur
     * Only on successful bargaining with dragon
     * Created on commission by an animal trainer in a traveling carnival
     * Abilities/purpose
-        * Control animals (up to 10HD of animals when first put on)
+        * Dominate animals (up to 10HD of animals when first put on)
     * Drawbacks/limitations
         * Stiff (LCK check to avoid fumble at -1d on first attack of combat, -1 to all AGL checks that involve manual dexterity)
         * Diminishing effectiveness (as long as at least 1 HD of animals were controlled at any time during the month)
             * -1d3 HD animals per person using the glove, per full moon
             * -1 HD if "maxxed out" for current wearer
-        * Reduce loss by 1d3 HD with sacrifice of (lvl)HD of animals plus (lvl)d4 HP on the new moon (only for that person)
+            * Animals no longer dominated due to diminishing powers will try to escape, and only attack if prevented (or at Judge's discretion if the PC was particularly cruel).
+        * Reduce loss by 1d3 HD with sacrifice of (lvl)HD of animals plus (lvl)d4 HP on the new moon.
         * Animal animosity
-            * Animals attack wearer first
-            * All non-combat interactions are at 1d detriment to wearer
-            * Any animals still under control will attack the person who controlled them when someone else wears the glove
+            * Non-dominated animals attack wearer first in combat.
+            * All non-combat interactions are at 1d detriment to wearer.
+            * If someone else puts on the glove, any dominated animals will make _one_ attack on the person who dominated them before fleeing.
         * At 0HD control, glove becomes cursed
             * Unable to remove glove
-            * Lycanthrope while wearing glove (random animal form, remember that the HD loss is during a full moon)
+            * Lycanthrope while wearing glove (random animal form, remember that the HD loss is during a full moon).
+            * _Remove Curse_ will make the gloves forever mundane for the current wearer.
     * Hints of the companion glove: the **Citrine Palm**
         * Same abilities as **Azure Grip**
         * When worn as a pair:
-            * Reduces control loss by 2HD/full moon (can "recharge" the gloves if normal loss less than 2HD to a max of 10HD)
-            * Allows magical creatures to be controlled, in addition to the mundane
-            * Magical animals become hostile
-            * Negates hostility of mundane animals
-            * Prevents curse from activating (instead, gloves become forever mundane for the wearer)
+            * Reduces power loss by 2HD/full moon (can "recharge" the gloves if normal loss would be less than 2HD, to a max of 10HD)
+            * Sacrifices can no longer reduce the power loss.
+            * Allows magical creatures to be dominated, in addition to the mundane (WIL save to prevent domination).
+            * Magical animals become hostile (see above).
+            * Mundane animals no longer only target the wearer in combat.
+            * Prevents curse from activating. Instead, both gloves become forever mundane for the current wearer.
