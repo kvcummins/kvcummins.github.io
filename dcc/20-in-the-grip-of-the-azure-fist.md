@@ -43,10 +43,11 @@ There is a sudden burst of noise as 5 hulking shapes leap out of the shadows!
 <h4>The Pack</h4>
 <ul><li>4 huge dogs (treat as <em>Wolves</em>)</li>
 <li>1 huge Alpha Male (treat as <em>Dire Wolf</em>)</li></ul>
-<p />
+<p>
 <ul><li>The Alpha Male is in charge, and if he is killed, the others will flee into the darkness.</li>
 <li>If the Alpha Male is taken to half his HP, he will retreat, and the rest of the pack will follow after another round of combat.</li>
 <li>If two of the pack are killed, the Alpha Male will signal a retreat, and all the beasts will leave together.</li></ul>
+</p>
 <p>
 After the pack is dealt with, a shadowy rider can be seen at the edge of the woods, his right hand glowing blue.
 </p>
