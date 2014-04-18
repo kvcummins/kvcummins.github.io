@@ -7,7 +7,7 @@ type: Spell
 categories: "Dungeon Crawl Classics"
 tags: [ DCC, Spell ]
 icon: icon-magic
-permalink: nintoqs_jingle.html
+permalink: dcc/nintoqs_jingle.html
 spells:
   -
     name: "Nintoq's Compelling Jingle"

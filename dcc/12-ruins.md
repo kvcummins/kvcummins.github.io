@@ -7,7 +7,7 @@ type: Page
 tags: [ DCC, setting ]
 group: DCC
 icon: icon-globe
-permalink: ruins.html
+permalink: dcc/ruins.html
 ---
 {% include JB/setup %}
 

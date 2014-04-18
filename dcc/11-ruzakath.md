@@ -7,7 +7,7 @@ type: Page
 tags: [ DCC, setting ]
 group: DCC
 icon: icon-globe
-permalink: ruzakath.html
+permalink: dcc/ruzakath.html
 ---
 {% include JB/setup %}
 

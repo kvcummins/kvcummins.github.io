@@ -7,7 +7,7 @@ type: Page
 tags: [ DCC, setting ]
 group: DCC
 icon: icon-globe
-permalink: pillar_of_relgo.html
+permalink: dcc/pillar_of_relgo.html
 ---
 {% include JB/setup %}
 

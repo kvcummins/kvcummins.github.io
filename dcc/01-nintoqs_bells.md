@@ -7,7 +7,7 @@ type: Spell
 categories: "Dungeon Crawl Classics"
 tags: [ DCC, Spell ]
 icon: icon-magic
-permalink: nintoqs_bells.html
+permalink: dcc/nintoqs_bells.html
 spells:
   -
     name: "Nintoq's Bells of the Sepulchure"
