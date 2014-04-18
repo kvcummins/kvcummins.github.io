@@ -1,14 +1,5 @@
 @import url('dcc-spell.css');
 
-.dcc-patron, .dcc-patron h2, .dcc-patron h3, .dcc-patron h4, .dcc-patron h5  {
-	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-}
-
-.dcc-patron h1 {
-	font-family: DuvallNormal;
-	text-align: center;
-}
-
 .dcc-patron .list-group-item {
     padding-top: 5px;
     padding-bottom: 5px;

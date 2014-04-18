@@ -12,7 +12,7 @@ permalink: azure-fist.html
 ---
 {% include JB/setup %}
 
-## Steeped in Fear
+### Steeped in Fear
 
 > The common room is full of families and fear. No one wants to be alone these nights, with the mist pouring out of the woods, and the things that have happened. The town dogs are quieted by the eerie howls of something else. Something in the woods. Families gather together even tighter, a child begins to snuffle and cry softly. A mother, whose newborn boy begins to fuss and cry, unceremoniously begins to feed him, knowing that tonight, everyone is family, and there is no need for false modesty. The howl is taken up by another creature from the darkness, and as they get closer to the town, the tension rises in the room. For several indeterminable minutes, there is silence. Then, in a chorus of triumphant glee, the unearthly howls rise in unison. Someone has lost a sheep, or a pig, or a cow. Now there is a release in the room. Fathers order a last round, mothers worry over their children, and everyone shoots looks out through the walls and shuttered windows, as if they could see their modest homes, and could tell if it was their homestead that had been victimized.
 > 
@@ -24,17 +24,17 @@ permalink: azure-fist.html
 > _"I'm not facing whatever that is!"_
 > _"We can all face it! Have some faith in yourselves!"_
 > 
-> Part panic, part braggadocio, talks swing between taking a pitchfork out in the night and ending the terror, and packing up families and moving to safer environs. Nobody gets much sleep, and as dawn begins to shed its light through the cracks of the shutters, a few of the more experienced hunters step outside. _"Tracks look like a wolf, or a dog. Big 'un, but just a wolf."_ _"And a rider, too! I followed them tracks to the edge of town, and there were horse prints, and they were shod. That's a rider for sure."_
+> Part panic, part braggadocio, talks swing between taking a pitchfork out in the night and ending the terror, and packing up families and moving to safer environs. Nobody gets much sleep, and as dawn begins to shed its light through the cracks of the shutters, a few of the more experienced hunters step outside. _"Tracks look like a wolf, or a dog. Big 'un, but just a wolf."_ _"And a rider, too! I followed them tracks to the edge of town, and there was horse prints, and they was shod. That's a rider for sure."_
 > 
 > A makeshift posse is organized, with a surprising number of people willing to see this fear ended. A plan is hatched to gather at a nearby farm the next evening to lie in wait and get to the bottom of these raids. Those who have volunteered go home to rest and prepare themselves...
 
 ---
 
-## First Glimpse
+### First Glimpse
 
 > The makeshift posse gathers in the barnyard of one of the outlying farms, eyes glued to the forest. 
 
-+ Any larcenous Player can make an INT check (DC10) to find a useful item in the barn. A failed check means that Player is automatically surprised when the attack occurs. A successful check grants one mundane farm item per PC _(need a table)_, but the Player may _not_ make a check to avoid surprise.
++ Any larcenous Player can make an INT check (DC10) to find useful items in the barn. A failed check means that the Players PCs are automatically surprised when the attack occurs. A successful check grants one mundane farm item per PC _(need a table)_, but the Player may _not_ make a check to avoid surprise or set an ambush.
 + Any Player not stealing can make an INT check (DC10) for one of their PCs to realize that whatever is out there already knows they're there, and will likely approach and attack from downwind! If no Player makes the check it's a LCK check to avoid surprise. If _one_ Player makes the check, no law-abiding Players will be surprised.
 + Any Player who does make the INT check to avoid surprise may make an AGL check (DC10) to allow that Player to set up an ambush!
 + Players must decide on a course of action _before_ rolling the dice.
@@ -57,7 +57,7 @@ After the pack is dealt with, a shadowy rider can be seen at the edge of the woo
 
 ---
 
-## Gone to Ground
+### Gone to Ground
 
 In which our lightly seasoned band finds the lair of the Azure Fist. And learns that sometimes, the hands that feed _are_ bitten...
 
@@ -84,7 +84,7 @@ In which our lightly seasoned band finds the lair of the Azure Fist. And learns 
 
 ---
 
-## In the Clutches
+### In the Clutches
 
 In which our battered band of bumblers Come face-to-face with the Azure Fist. And likely face-to-fist...
 
@@ -113,7 +113,7 @@ In which our battered band of bumblers Come face-to-face with the Azure Fist. An
 
 ---
 
-## One in the Hand
+### One in the Hand
 
 In which our weary survivors learn the desperate and grisly truth about the Azure Fist. And hopefully learn from his mistakes...
 

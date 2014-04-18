@@ -9,11 +9,11 @@
 			<td>Casting Time: {{ spell.cast }}</td>
 			<td>Save: {{ spell.save }}</td>
 		</tr></table>
-		<h3>General</h3>
+		<h4>General</h4>
 		<ul class="list-group"><li class="list-group-item">
 		<p>{{ spell.description }}</p>
 		<p>{{ spell.text }}</p></li></ul>
-		<h3>Manifestation</h3>
+		<h4>Manifestation</h4>
 		<ul class="list-group">
 		{% for results in spell.manifestation %}
 			{% if results[1].first[0] != null %}
@@ -29,7 +29,7 @@
 			{% endif %}
 		{% endfor %}
 		</ul>
-		<h3>Misfire</h3>
+		<h4>Misfire</h4>
 		<ul class="list-group">
 		{% for results in spell.misfire %}
 			{% if results[1].first[0] != null %}
@@ -53,7 +53,7 @@
 			{% endif %}
 		{% endfor %}
 		</ul>
-		<h3>Spellcheck results</h3>
+		<h4>Spellcheck results</h4>
 		<ul class="list-group">
 		{% for results in spell.spellcheck %}
 			{% if results[1].first[0] != null %}

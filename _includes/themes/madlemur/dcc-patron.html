@@ -4,7 +4,7 @@
 <ul class="list-group"><li class="list-group-item content">
 {{ content }}
 </li></ul>
-<h3>Taint</h3>
+<h4>Taint</h4>
 <ul class="list-group">
 {% for results in page.taint %}
     {% if results[1].first[0] != null %}
@@ -28,7 +28,7 @@
     {% endif %}
 {% endfor %}
 </ul>
-<h3>Spellburn</h3>
+<h4>Spellburn</h4>
 <ul class="list-group">
 {% for results in page.spellburn %}
     {% if results[1].first[0] != null %}
@@ -52,7 +52,7 @@
     {% endif %}
 {% endfor %}
 </ul>
-<h3>Invoke Patron</h3>
+<h4>Invoke Patron</h4>
 <ul class="list-group">
 {% for results in page.invoke %}
     {% if results[1].first[0] != null %}
