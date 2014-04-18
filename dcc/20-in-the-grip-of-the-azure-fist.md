@@ -8,7 +8,7 @@ type: Page
 tags: [ DCC, adventure ]
 group: DCC
 icon: icon-key
-permalink: azure-fist.html
+permalink: dcc/azure-fist.html
 ---
 {% include JB/setup %}
 
