@@ -34,26 +34,41 @@ permalink: azure-fist.html
 
 > The makeshift posse gathers in the barnyard of one of the outlying farms, eyes glued to the forest. 
 
-+ Any larcenous Player can make an INT check (DC10) to find useful items in the barn. A failed check means that the Players PCs are automatically surprised when the attack occurs. A successful check grants one mundane farm item per PC _(need a table)_, but the Player may _not_ make a check to avoid surprise or set an ambush.
-+ Any Player not stealing can make an INT check (DC10) for one of their PCs to realize that whatever is out there already knows they're there, and will likely approach and attack from downwind! If no Player makes the check it's a LCK check to avoid surprise. If _one_ Player makes the check, no law-abiding Players will be surprised.
-+ Any Player who does make the INT check to avoid surprise may make an AGL check (DC10) to allow that Player to set up an ambush!
+<div class="panel panel-default" markdown="1">
+<div class="panel-body" markdown="1">
++ Any larcenous Player can make an INT check (DC10) to find useful items in the barn. 
+  + On success, each PC finds one mundane farm item _(need a table)_, but the Player must make a LCK check to avoid surprise.
+  + On Failure, the PCs are automatically surprised when the attack occurs. 
++ Any Player not stealing can make an INT check (DC10) for one of their PCs to realize that whatever is out there already knows they're there, and will likely approach and attack from downwind!
+  + Any Player who makes the check may make an AGL check (DC10) to allow that Player to set up an ambush.
+  + If _any_ Player makes the check, only Players too busy stealing can be surprised.
+  + If no Player makes the check each Player has to make a LCK check to avoid surprise.
 + Players must decide on a course of action _before_ rolling the dice.
+</div>
+</div>
 
 > There is a sudden burst of noise as 5 hulking shapes leap out of the shadows!
 
-<div class="well well-sm">
-<h2>The Pack</h2>
-<ul><li>4 huge dogs (treat as <em>Wolves</em>)</li>
-<li>1 huge Alpha Male (treat as <em>Dire Wolf</em>)</li></ul>
-<p>
-<ul><li>The Alpha Male is in charge, and if he is killed, the others will flee into the darkness.</li>
-<li>If the Alpha Male is taken to half his HP, he will retreat, and the rest of the pack will follow after another round of combat.</li>
-<li>If two of the pack are killed, the Alpha Male will signal a retreat, and all the beasts will leave together.</li></ul>
-</p>
-<p>
-After the pack is dealt with, a shadowy rider can be seen at the edge of the woods, his right hand glowing blue.
-</p>
+<div class="panel panel-default" markdown="1">
+<div class="panel-heading" markdown="1">#### The Pack
 </div>
+<div class="panel-body" markdown="1">
++ 4 huge dogs (treat as _Wolves_)
++ 1 huge Alpha Male (treat as _Dire Wolf_)
+
++ The Alpha Male is in charge, and if he is killed, the others will flee into the darkness.
++ If the Alpha Male is taken below half his HP, he will retreat. The rest of the pack will follow after another round of combat.
++ If two of the pack are killed, the Alpha Male will signal the others to retreat, and follow after another round of combat.
+
+---
+
+After the pack is dealt with, a shadowy rider can be seen at the edge of the woods, his right hand glowing blue.
+</div>
+</div>
+
+> With clouds rolling in and rain likely, the bloodied rag-tag group must hurry to follow the strange rider before his trail is washed away.
+
+If the Players do not follow the rider, they must try to lure the rider and his hounds out the next night. XP is not awarded for this encounter unless the Players follow the rider. <small>_Sure, it's railroading, but this is a **DCC Funnel**, not a complete sandbox_</small>
 
 ---
 
@@ -66,8 +81,8 @@ In which our lightly seasoned band finds the lair of the Azure Fist. And learns 
 * AGL check to climb wall silently (DC 10)
 * LCK check to open gate silently (DC 10)
 * Encounter: The Pack
-    * Survivors from above (each healed by 1d3 HP)
-    * 1d3 more dogs as _Wolves_ to max of 5 dogs in total, including alpha male
+    * Survivors from above
+    * 1d3 more dogs as _Wolves_ to max of 6 dogs in total, including alpha male
 * Encounter: Ursas, Ho!
     * 3 _Dire Bears_
     * Avoidable by clever PCs
@@ -110,6 +125,28 @@ In which our battered band of bumblers Come face-to-face with the Azure Fist. An
 * More loot!
 * Insinuation/implication of ransom-able people/goods
 * Magician's stash
+
+---
+
+### Out of the Frying Pan
+
+In which our intrepid group catches their breath, and a whiff of brimstone...
+
+#### Challenges
+
+* Traps (fire-based)
+* Puzzles
+* ???
+
+#### Rewards
+
+* XP
+* Equipment by Attrition
+* Some rest (heal 1HP if the Player brought food, and they specifically rest)
+
+#### Hooks
+
+* Something more down the hall?
 
 ---
 
