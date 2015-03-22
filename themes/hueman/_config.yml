@@ -1,0 +1,42 @@
+# Header
+menu:
+  Home: /
+  # Delete this row if you don't want categories in your header nav bar
+  Categories:
+  About: /about/index.html
+
+# Content
+fancybox: true
+
+# Thumbnail
+thumbnail: false
+
+# Scroll Loading
+scrollLoading: true
+
+# Sidebar
+social_links:
+  twitter: https://www.twitter.com/kvcummins
+  google_plus: https://plus.google.com/+KennethCummins
+  github: https://github.com/kvcummmins
+  rss: atom.xml
+widgets:
+- recent_posts
+- category
+- archive
+- tag
+- tagcloud
+- links
+
+# Links
+links:
+  Hexo: http://hexo.io
+
+# Don't Use Google APIs if you are in google-blocked areas
+use_google_apis: true
+
+# Miscellaneous
+google_analytics: UA-6605488-1
+favicon: /favicon.png
+fb_admins:
+fb_app_id:
