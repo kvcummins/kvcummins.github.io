@@ -4,7 +4,7 @@
   <subtitle><![CDATA[enrage your primate]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.madlemur.com/"/>
-  <updated>2015-03-22T17:58:32.428Z</updated>
+  <updated>2015-03-23T00:12:35.116Z</updated>
   <id>http://www.madlemur.com/</id>
   
   <author>
@@ -13,6 +13,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[New site building tool]]></title>
+    <link href="http://www.madlemur.com/2015/03/22/New-site-building-tool/"/>
+    <id>http://www.madlemur.com/2015/03/22/New-site-building-tool/</id>
+    <published>2015-03-23T00:07:25.000Z</published>
+    <updated>2015-03-23T00:12:35.116Z</updated>
+    <content type="html"><![CDATA[<p>Getting the feel for Hexo, the tool I’m now using to build my site. I decided that as easy as using github’s Jekyll was, I like the more substantial control I have using local tools. I even set up a branch just for the source, so I still have everything in github.</p>
+<p>This doesn’t mean I’m going to suddenly start posting more, just a change.</p>]]></content>
+    <summary type="html">
+    <![CDATA[<p>Getting the feel for Hexo, the tool I’m now using to build my site. I decided that as easy as using github’s Jekyll was, I like the more ]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
