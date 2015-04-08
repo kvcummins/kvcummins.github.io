@@ -17,6 +17,8 @@
             excerpt = post.content.replace(/\<[^\>]+\>/g, "").substring(0,200);
           } %>
         <%= excerpt %>
+      <div style="font: 14px 'Titillium Web', 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', sans-serif" class="g-commentcount" data-href="<%- post.permalink %>"></div>
+      
       </p>
     </div>
   </article>
