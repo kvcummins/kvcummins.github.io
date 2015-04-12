@@ -2,6 +2,8 @@ title: "The Academy"
 tags:
 - DCC
 - Fiction
+categories:
+- Fiction
 ---
 # Nintoq's Teaching Table
 

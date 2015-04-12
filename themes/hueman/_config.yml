@@ -9,7 +9,7 @@ menu:
 fancybox: true
 
 # Thumbnail
-thumbnail: false
+thumbnail: true
 
 # Scroll Loading
 scrollLoading: true

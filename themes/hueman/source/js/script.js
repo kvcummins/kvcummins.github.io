@@ -76,7 +76,18 @@
   });
 
   if ($.fancybox){
-    $('.fancybox').fancybox();
+    $('.fancybox').fancybox(
+      {
+        helpers	: {
+	  title	: {
+            type: 'outside'
+          },
+          thumbs	: {
+            width	: 50,
+            height	: 50
+          }
+	}
+      });
   }
 
   //Back to top
