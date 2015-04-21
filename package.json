@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "hexo": "3.0.0-rc.4",
-    "hexo-admin-plugin": "^0.1.2",
     "hexo-clean-css": "0.0.2",
     "hexo-deployer-git": "0.0.3",
     "hexo-generator-archive": "^0.1.0",
@@ -21,7 +20,6 @@
     "hexo-renderer-ejs": "^0.1.0",
     "hexo-renderer-markdown-it": "^3.2.1",
     "hexo-renderer-stylus": "^0.2.0",
-    "hexo-server": "^0.1.2",
-    "hexo-tag-bootstrap": "0.0.6"
+    "hexo-server": "^0.1.2"
   }
 }
