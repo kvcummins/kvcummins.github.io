@@ -4,7 +4,7 @@
   <subtitle><![CDATA[enrage your primate]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.madlemur.com/"/>
-  <updated>2015-04-09T05:41:47.141Z</updated>
+  <updated>2015-06-02T20:04:37.954Z</updated>
   <id>http://www.madlemur.com/</id>
   
   <author>
@@ -15,16 +15,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://www.madlemur.com/2015/06/02/hello-world/"/>
+    <id>http://www.madlemur.com/2015/06/02/hello-world/</id>
+    <published>2015-06-02T20:04:37.954Z</published>
+    <updated>2015-06-02T20:04:37.954Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p> <h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure> <p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p> <h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure> <p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p> <h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure> <p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p> <h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure> <p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Postal Services FTW!]]></title>
+    <link href="http://www.madlemur.com/2015/04/18/Postal-Services-FTW/"/>
+    <id>http://www.madlemur.com/2015/04/18/Postal-Services-FTW/</id>
+    <published>2015-04-18T18:35:11.000Z</published>
+    <updated>2015-04-21T16:28:29.965Z</updated>
+    <content type="html"><![CDATA[<p>Amazon said it was on time to be delivered May 30th. Came today! Thank you, Japan Post, USPS, and even US customs (for not holding it in NY).</p> <p>Going to wait till tonight to start working on it. I think…</p> <img src="/2015/04/18/Postal-Services-FTW/Zaku_II.jpg" alt="Zaku_II.jpg">
+<img src="/2015/04/18/Postal-Services-FTW/JP_USPS.jpg" alt="JP_USPS.jpg">]]></content>
+    <summary type="html">
+    <![CDATA[<p>Amazon said it was on time to be delivered May 30th. Came today! Thank you, Japan Post, USPS, and even US customs (for not holding it in ]]>
+    </summary>
+    
+      <category term="Zaku_II" scheme="http://www.madlemur.com/tags/Zaku-II/"/>
+    
+      <category term="Hobby" scheme="http://www.madlemur.com/categories/Hobby/"/>
+    
+      <category term="Gunpla" scheme="http://www.madlemur.com/categories/Hobby/Gunpla/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Testing the Waters]]></title>
     <link href="http://www.madlemur.com/2015/04/08/Testing-the-Waters/"/>
     <id>http://www.madlemur.com/2015/04/08/Testing-the-Waters/</id>
     <published>2015-04-08T06:56:36.000Z</published>
     <updated>2015-04-09T05:41:47.141Z</updated>
-    <content type="html"><![CDATA[<p>After seeing posts by several people in my Google+ circles, I finally decided to dip my toes into the potentially devastating hobby subculture of Gunpla. Based on helpful posts and some personal research (and an eye on my wallet), I decided to start with the 1/144 scale HGUC (High Grade Universal Century) models. It seems to bring together many of the recent innovations in design and production, but in a manageable size (and cost).</p>
-<p>I'd love to be able to afford the Master Grade or Perfect Grade models, but they are much too large and too expensive for my budget and skill level. Maybe I'll treat myself someday.</p>
-<p>Anyway, I decided to get <em>two</em> models. After watching a few of the original series, I decided to go with Amuro's RX-78-2 Gundam Mobile Suit and Char's MS-06S Zaku II Suit.</p>
-<p><img src="/2015/04/08/Testing-the-Waters/rx782144hguc.jpg"></p>
-<p><img src="/2015/04/08/Testing-the-Waters/ms06sZaku2144.jpg"></p>]]></content>
+    <content type="html"><![CDATA[<p>After seeing posts by several people in my Google+ circles, I finally decided to dip my toes into the potentially devastating hobby subculture of Gunpla. Based on helpful posts and some personal research (and an eye on my wallet), I decided to start with the 1/144 scale HGUC (High Grade Universal Century) models. It seems to bring together many of the recent innovations in design and production, but in a manageable size (and cost).</p> <p>I’d love to be able to afford the Master Grade or Perfect Grade models, but they are much too large and too expensive for my budget and skill level. Maybe I’ll treat myself someday.</p> <p>Anyway, I decided to get <em>two</em> models. After watching a few of the original series, I decided to go with Amuro’s RX-78-2 Gundam Mobile Suit and Char’s MS-06S Zaku II Suit.</p> <img src="/2015/04/08/Testing-the-Waters/rx782144hguc.jpg" alt="rx782144hguc.jpg">
+<img src="/2015/04/08/Testing-the-Waters/ms06sZaku2144.jpg" alt="ms06sZaku2144.jpg">]]></content>
     <summary type="html">
     <![CDATA[<p>After seeing posts by several people in my Google+ circles, I finally decided to dip my toes into the potentially devastating hobby subcu]]>
     </summary>
@@ -43,10 +73,9 @@
     <id>http://www.madlemur.com/2015/03/22/New-site-building-tool/</id>
     <published>2015-03-23T00:07:25.000Z</published>
     <updated>2015-04-08T15:18:35.520Z</updated>
-    <content type="html"><![CDATA[<p>Getting the feel for Hexo, the tool I'm now using to build my site. I decided that as easy as using github's Jekyll was, I like the more substantial control I have using local tools. I even set up a branch just for the source, so I still have everything in github.</p>
-<p>This doesn't mean I'm going to suddenly start posting more, just a change.</p>]]></content>
+    <content type="html"><![CDATA[<p>Getting the feel for Hexo, the tool I’m now using to build my site. I decided that as easy as using github’s Jekyll was, I like the more substantial control I have using local tools. I even set up a branch just for the source, so I still have everything in github.</p> <p>This doesn’t mean I’m going to suddenly start posting more, just a change.</p>]]></content>
     <summary type="html">
-    <![CDATA[<p>Getting the feel for Hexo, the tool I'm now using to build my site. I decided that as easy as using github's Jekyll was, I like the more ]]>
+    <![CDATA[<p>Getting the feel for Hexo, the tool I’m now using to build my site. I decided that as easy as using github’s Jekyll was, I like the more ]]>
     </summary>
     
   </entry>
