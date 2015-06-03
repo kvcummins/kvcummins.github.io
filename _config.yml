@@ -74,6 +74,31 @@ clean_css:
   exclude:
   - "*.min.css"
 
+html_minifier:
+  exclude:
+  removeComments: true
+  collapseWhitespace: true
+  conservativeCollapse: true
+  collapseBooleanAttributes: true
+  removeAttributeQuotes: true
+  removeRedundantAttributes: true
+  useShortDoctype: true
+  removeEmptyAttributes: true
+  removeScriptTypeAttributes: true
+  removeStyleLinkTypeAttributes: true
+  removeOptionalTags: true
+  removeIgnored: true
+  keepClosingSlash: true
+  preserveLineBreaks: true
+
+uglify:
+  mangle: true
+  output:
+  compress:
+  exclude:
+  - "*.min.js"
+  - "*.pack.js"
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:

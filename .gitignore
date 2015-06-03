@@ -1,14 +1,7 @@
-_site/*
-_theme_packages/*
-node_modules/*
-public/*
-.deploy_git/*
-
-Thumbs.db
 .DS_Store
-
-!.gitkeep
-
-.rbenv-version
-.rvmrc
- _.swp
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
