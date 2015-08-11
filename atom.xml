@@ -4,7 +4,7 @@
   <subtitle><![CDATA[enrage your primate]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.madlemur.com/"/>
-  <updated>2015-04-21T16:28:29.965Z</updated>
+  <updated>2015-08-11T20:42:13.578Z</updated>
   <id>http://www.madlemur.com/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[KSP Controller]]></title>
+    <link href="http://www.madlemur.com/2015/08/11/KSP-Controller/"/>
+    <id>http://www.madlemur.com/2015/08/11/KSP-Controller/</id>
+    <published>2015-08-11T20:30:31.000Z</published>
+    <updated>2015-08-11T20:42:13.578Z</updated>
+    <content type="html"><![CDATA[<p>So I decided to start putting my Arduino to good (?) use. I’ve gotten some LEDs, an LCD panel, and a number of switches and buttons. So far, I have KSPSerialIO talking to my Arduino, and lighting up the basic indicators (main alarm, SAS, RCS, brakes, gear, lights, abort, and connection), and I’m trying to get my LCD screen to display the apoapsis and periapsis, but something is amiss in how I’m converting the float all the way to a string.</p> <img src="/2015/08/11/KSP-Controller/0811150222.jpg" alt="0811150222.jpg">]]></content>
+    <summary type="html">
+    <![CDATA[<p>So I decided to start putting my Arduino to good (?) use. I’ve gotten some LEDs, an LCD panel, and a number of switches and buttons. So f]]>
+    </summary>
+    
+      <category term="KSP" scheme="http://www.madlemur.com/tags/KSP/"/>
+    
+      <category term="Hobby" scheme="http://www.madlemur.com/categories/Hobby/"/>
+    
+      <category term="Video Gaming" scheme="http://www.madlemur.com/categories/Hobby/Video-Gaming/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Postal Services FTW!]]></title>
