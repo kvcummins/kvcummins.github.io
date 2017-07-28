@@ -3,6 +3,7 @@ menu:
   Home: /
   # Delete this row if you don't want categories in your header nav bar
   Categories:
+  Résumé: /resume/index.html
   About: /about/index.html
 
 # Content
@@ -16,9 +17,10 @@ scrollLoading: true
 
 # Sidebar
 social_links:
-  twitter: https://www.twitter.com/kvcummins
+  linkedin: https://www.linkedin.com/in/kenneth-cummins
   google_plus: https://plus.google.com/+KennethCummins
   github: https://github.com/kvcummmins
+  twitter: https://www.twitter.com/kvcummins
   rss: atom.xml
 widgets:
 - recent_posts

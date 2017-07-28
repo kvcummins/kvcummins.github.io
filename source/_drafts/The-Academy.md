@@ -1,9 +1,10 @@
-title: "The Academy"
+title: The Academy
 tags:
-- DCC
-- Fiction
+  - DCC
+  - Fiction
 categories:
-- Fiction
+  - Fiction
+date: 2017-04-28 21:23:00
 ---
 # Nintoq's Teaching Table
 

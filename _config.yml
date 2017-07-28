@@ -105,3 +105,10 @@ deploy:
   type: git
   repo: ssh://git@github.com/kvcummins/kvcummins.github.io.git
   branch: master
+
+# Admin
+admin:
+  name: hexo
+  password: hey
+  secret: hey hexo
+  expire: 60*1
