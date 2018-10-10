@@ -3,7 +3,7 @@ module.exports = function(grunt){
     gitclone: {
       fontawesome: {
         options: {
-          repository: 'https://github.com/FortAwesome/Font-Awesome.git',
+          repository: '-b v4.7.0 https://github.com/FortAwesome/Font-Awesome.git',
           directory: 'tmp/fontawesome'
         },
       },
@@ -23,7 +23,7 @@ module.exports = function(grunt){
       },
       fancybox: {
         expand: true,
-        cwd: 'tmp/fancybox/source/',
+        cwd: 'tmp/fancybox/src/',
         src: ['**'],
         dest: 'source/fancybox/'
       }
