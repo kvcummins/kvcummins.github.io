@@ -103,7 +103,7 @@ uglify:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: ssh://git@github.com/kvcummins/kvcummins.github.io.git
+  repo: ssh://git@github.com/madlemur/kvcummins.github.io.git
   branch: master
 
 # Admin
