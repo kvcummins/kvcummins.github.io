@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.madlemur.com/"/>
-  <updated>2018-10-10T01:01:10.241Z</updated>
+  <updated>2018-10-10T04:14:45.708Z</updated>
   <id>http://www.madlemur.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.madlemur.com/2015/08/11/KSP-Controller/"/>
     <id>http://www.madlemur.com/2015/08/11/KSP-Controller/</id>
     <published>2015-08-11T20:30:31.000Z</published>
-    <updated>2018-10-10T01:01:10.241Z</updated>
+    <updated>2018-10-10T04:14:45.708Z</updated>
     
     <content type="html"><![CDATA[<p>So I decided to start putting my Arduino to good (?) use. I’ve gotten some LEDs, an LCD panel, and a number of switches and buttons. So far, I have KSPSerialIO talking to my Arduino, and lighting up the basic indicators (main alarm, SAS, RCS, brakes, gear, lights, abort, and connection), and I’m trying to get my LCD screen to display the apoapsis and periapsis, but something is amiss in how I’m converting the float all the way to a string.</p> <img src="/2015/08/11/KSP-Controller/0811150222.jpg">]]></content>
     
@@ -48,7 +48,7 @@
     <link href="http://www.madlemur.com/2015/04/18/Postal-Services-FTW/"/>
     <id>http://www.madlemur.com/2015/04/18/Postal-Services-FTW/</id>
     <published>2015-04-18T18:35:11.000Z</published>
-    <updated>2018-10-10T01:01:10.262Z</updated>
+    <updated>2018-10-10T04:14:45.725Z</updated>
     
     <content type="html"><![CDATA[<p>Amazon said it was on time to be delivered May 30th. Came today! Thank you, Japan Post, USPS, and even US customs (for not holding it in NY).</p> <p>Going to wait till tonight to start working on it. I think…</p> <img src="/2015/04/18/Postal-Services-FTW/Zaku_II.jpg"><img src="/2015/04/18/Postal-Services-FTW/JP_USPS.jpg">]]></content>
     
@@ -75,7 +75,7 @@
     <link href="http://www.madlemur.com/2015/04/08/Testing-the-Waters/"/>
     <id>http://www.madlemur.com/2015/04/08/Testing-the-Waters/</id>
     <published>2015-04-08T06:56:36.000Z</published>
-    <updated>2018-10-10T01:01:10.321Z</updated>
+    <updated>2018-10-10T04:14:45.734Z</updated>
     
     <content type="html"><![CDATA[<p>After seeing posts by several people in my Google+ circles, I finally decided to dip my toes into the potentially devastating hobby subculture of Gunpla. Based on helpful posts and some personal research (and an eye on my wallet), I decided to start with the 1/144 scale HGUC (High Grade Universal Century) models. It seems to bring together many of the recent innovations in design and production, but in a manageable size (and cost).</p> <p>I’d love to be able to afford the Master Grade or Perfect Grade models, but they are much too large and too expensive for my budget and skill level. Maybe I’ll treat myself someday.</p> <p>Anyway, I decided to get <em>two</em> models. After watching a few of the original series, I decided to go with Amuro’s RX-78-2 Gundam Mobile Suit and Char’s MS-06S Zaku II Suit.</p> <img src="/2015/04/08/Testing-the-Waters/rx782144hguc.jpg"><img src="/2015/04/08/Testing-the-Waters/ms06sZaku2144.jpg">]]></content>
     
@@ -102,7 +102,7 @@
     <link href="http://www.madlemur.com/2015/03/22/New-site-building-tool/"/>
     <id>http://www.madlemur.com/2015/03/22/New-site-building-tool/</id>
     <published>2015-03-23T00:07:25.000Z</published>
-    <updated>2018-10-10T01:01:10.260Z</updated>
+    <updated>2018-10-10T04:14:45.713Z</updated>
     
     <content type="html"><![CDATA[<p>Getting the feel for Hexo, the tool I’m now using to build my site. I decided that as easy as using github’s Jekyll was, I like the more substantial control I have using local tools. I even set up a branch just for the source, so I still have everything in github.</p> <p>This doesn’t mean I’m going to suddenly start posting more, just a change.</p>]]></content>
     
